@@ -20,7 +20,7 @@ export const team: TeamMember[] = [
     bioFr: "25 ans d'expérience. Structuration et accompagnement des sociétés. Jérôme est entrepreneur avant tout ! Il aime créer, structurer, organiser.",
     bioEn: "25 years of experience. Company structuring and support. Jérôme is an entrepreneur above all! He loves creating, structuring, organizing.",
     email: "jcoirier@manco.paris",
-    linkedin: "linkedin.com/in/jcoirier",
+    linkedin: "https://www.linkedin.com/in/jcoirier/",
   },
   {
     id: "andre-mayens",

@@ -43,8 +43,8 @@ export function Footer() {
             <div className="font-mono text-[10px] text-fg-faint tracking-[0.16em] mb-3.5">
               {t("contact")}
             </div>
-            <div className="text-[13px] mb-2">{t("email")}</div>
-            <div className="text-[13px] mb-2">{t("phone")}</div>
+            <a href={`mailto:${t("email")}`} className="block text-[13px] mb-2 hover:text-fg transition-colors">{t("email")}</a>
+            <a href={`tel:${t("phone")}`} className="block text-[13px] mb-2 hover:text-fg transition-colors">{t("phone")}</a>
             <div className="text-[13px] mb-2 whitespace-pre-line">
               {t("address")}
             </div>
@@ -55,8 +55,8 @@ export function Footer() {
             <div className="font-mono text-[10px] text-fg-faint tracking-[0.16em] mb-3.5">
               {t("follow")}
             </div>
-            <div className="text-[13px] mb-2">↗ {t("linkedin")}</div>
-            <div className="text-[13px] mb-2">↗ {t("twitter")}</div>
+            <a href="https://www.linkedin.com/company/manco-paris" target="_blank" rel="noopener noreferrer" className="block text-[13px] mb-2 hover:text-fg transition-colors">↗ {t("linkedin")}</a>
+            <a href="https://twitter.com/MancoParis" target="_blank" rel="noopener noreferrer" className="block text-[13px] mb-2 hover:text-fg transition-colors">↗ {t("twitter")}</a>
           </div>
         </div>
 

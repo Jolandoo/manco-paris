@@ -127,7 +127,7 @@ function TeamCard({
         <div className="mt-auto pt-5">
           <a
             href={`mailto:${member.email}`}
-            className="inline-flex items-center gap-2 px-4.5 py-2.5 bg-accent text-bg-0 rounded-full font-sans text-[13px] font-semibold hover:brightness-110 transition-colors"
+            className="inline-flex items-center gap-2 px-4.5 py-2.5 bg-accent text-white rounded-full font-sans text-[13px] font-semibold hover:brightness-110 transition-colors"
           >
             {t("contact")} ↗
           </a>

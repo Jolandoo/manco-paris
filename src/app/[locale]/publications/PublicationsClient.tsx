@@ -38,7 +38,7 @@ export function PublicationsClient({ publications }: Props) {
             className={cn(
               "px-4 py-2 rounded-full font-sans text-[13px] font-medium cursor-pointer transition-colors border",
               filter === cat
-                ? "bg-accent text-bg-0 border-accent"
+                ? "bg-accent text-white border-accent"
                 : "bg-transparent text-fg-dim border-border hover:border-border-strong",
             )}
           >

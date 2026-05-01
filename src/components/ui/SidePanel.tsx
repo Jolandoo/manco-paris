@@ -191,7 +191,7 @@ function ContactForm({
       <button
         type="submit"
         disabled={status === "sending"}
-        className="mt-2 self-start px-6 py-3.5 bg-accent text-bg-0 rounded-full font-sans text-sm font-semibold cursor-pointer hover:brightness-110 transition-all disabled:opacity-60 disabled:cursor-not-allowed"
+        className="mt-2 self-start px-6 py-3.5 bg-accent text-white rounded-full font-sans text-sm font-semibold cursor-pointer hover:brightness-110 transition-all disabled:opacity-60 disabled:cursor-not-allowed"
       >
         {status === "sending" ? t("sending") : `${t("send")} →`}
       </button>

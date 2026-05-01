@@ -39,12 +39,12 @@ export function Navbar() {
       className={cn(
         "sticky top-0 z-50 flex items-center justify-between transition-all duration-[280ms] ease-[cubic-bezier(.2,.7,.2,1)]",
         scrolled
-          ? "py-3.5 px-12 max-md:px-6 bg-bg-0/[0.78] backdrop-blur-[20px] backdrop-saturate-[1.4] border-b border-border"
-          : "py-[22px] px-12 max-md:px-6 bg-transparent border-b border-transparent",
+          ? "py-3.5 px-12 max-md:px-6 bg-bg-0/[0.78] backdrop-blur-[20px] backdrop-saturate-[1.4] border-b border-white/10"
+          : "py-[22px] px-12 max-md:px-6 bg-bg-0 border-b border-transparent",
       )}
     >
       <Link href="/" className="hover:opacity-80 transition-opacity">
-        <Logo size={32} />
+        <Logo size={32} className="brightness-0 invert" />
       </Link>
 
       {/* Desktop nav */}
@@ -53,7 +53,7 @@ export function Navbar() {
           <Link
             key={key}
             href={key === "publications" ? "/publications" : `/#${key}`}
-            className="font-sans text-[13px] font-medium text-fg-dim hover:text-fg transition-colors duration-[160ms]"
+            className="font-sans text-[13px] font-medium text-white/70 hover:text-white transition-colors duration-[160ms]"
           >
             {t(key)}
           </Link>
@@ -62,12 +62,12 @@ export function Navbar() {
         {/* Lang switch */}
         <button
           onClick={() => switchLocale(locale === "fr" ? "en" : "fr")}
-          className="flex gap-0.5 p-[3px] border border-border rounded-full font-mono text-[11px] cursor-pointer hover:border-border-strong transition-colors"
+          className="flex gap-0.5 p-[3px] border border-white/20 rounded-full font-mono text-[11px] cursor-pointer hover:border-white/40 transition-colors"
         >
           <span
             className={cn(
               "px-2.5 py-1 rounded-full transition-colors",
-              locale === "fr" ? "bg-fg text-bg-0" : "text-fg-dim",
+              locale === "fr" ? "bg-white text-bg-0" : "text-white/60",
             )}
           >
             FR
@@ -75,7 +75,7 @@ export function Navbar() {
           <span
             className={cn(
               "px-2.5 py-1 rounded-full transition-colors",
-              locale === "en" ? "bg-fg text-bg-0" : "text-fg-dim",
+              locale === "en" ? "bg-white text-bg-0" : "text-white/60",
             )}
           >
             EN
@@ -91,19 +91,19 @@ export function Navbar() {
       >
         <span
           className={cn(
-            "block w-6 h-0.5 bg-fg transition-transform duration-200",
+            "block w-6 h-0.5 bg-white transition-transform duration-200",
             menuOpen && "rotate-45 translate-y-2",
           )}
         />
         <span
           className={cn(
-            "block w-6 h-0.5 bg-fg transition-opacity duration-200",
+            "block w-6 h-0.5 bg-white transition-opacity duration-200",
             menuOpen && "opacity-0",
           )}
         />
         <span
           className={cn(
-            "block w-6 h-0.5 bg-fg transition-transform duration-200",
+            "block w-6 h-0.5 bg-white transition-transform duration-200",
             menuOpen && "-rotate-45 -translate-y-2",
           )}
         />
@@ -111,25 +111,25 @@ export function Navbar() {
 
       {/* Mobile menu */}
       {menuOpen && (
-        <div className="lg:hidden absolute top-full left-0 right-0 bg-bg-0/95 backdrop-blur-xl border-b border-border p-6 flex flex-col gap-5">
+        <div className="lg:hidden absolute top-full left-0 right-0 bg-bg-0/95 backdrop-blur-xl border-b border-white/10 p-6 flex flex-col gap-5">
           {NAV_KEYS.map((key) => (
             <Link
               key={key}
               href={key === "publications" ? "/publications" : `/#${key}`}
               onClick={() => setMenuOpen(false)}
-              className="font-sans text-base font-medium text-fg-dim hover:text-fg transition-colors"
+              className="font-sans text-base font-medium text-white/70 hover:text-white transition-colors"
             >
               {t(key)}
             </Link>
           ))}
           <button
             onClick={() => switchLocale(locale === "fr" ? "en" : "fr")}
-            className="flex gap-0.5 p-[3px] border border-border rounded-full font-mono text-[11px] self-start cursor-pointer hover:border-border-strong transition-colors"
+            className="flex gap-0.5 p-[3px] border border-white/20 rounded-full font-mono text-[11px] self-start cursor-pointer hover:border-white/40 transition-colors"
           >
             <span
               className={cn(
                 "px-2.5 py-1 rounded-full transition-colors",
-                locale === "fr" ? "bg-fg text-bg-0" : "text-fg-dim",
+                locale === "fr" ? "bg-white text-bg-0" : "text-white/60",
               )}
             >
               FR
@@ -137,7 +137,7 @@ export function Navbar() {
             <span
               className={cn(
                 "px-2.5 py-1 rounded-full transition-colors",
-                locale === "en" ? "bg-fg text-bg-0" : "text-fg-dim",
+                locale === "en" ? "bg-white text-bg-0" : "text-white/60",
               )}
             >
               EN

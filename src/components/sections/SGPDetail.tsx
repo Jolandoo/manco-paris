@@ -138,7 +138,7 @@ function VideoTile({ label, big = false }: { label: string; big?: boolean }) {
       />
       <div className="absolute inset-0 flex items-center justify-center">
         <div
-          className={`rounded-full bg-accent flex items-center justify-center text-bg-0 pl-1 transition-shadow duration-[280ms] group-hover:shadow-[0_0_0_8px_rgba(125,211,252,0.2)] ${big ? "w-20 h-20 text-2xl" : "w-14 h-14 text-base"}`}
+          className={`rounded-full bg-accent flex items-center justify-center text-white pl-1 transition-shadow duration-[280ms] group-hover:shadow-[0_0_0_8px_rgba(37,99,235,0.15)] ${big ? "w-20 h-20 text-2xl" : "w-14 h-14 text-base"}`}
         >
           ▶
         </div>

@@ -3,24 +3,24 @@
 @theme inline {
   /* Surfaces */
   --color-bg-0: #1A1A1A;
-  --color-bg-1: #222222;
-  --color-bg-2: #2D2D2D;
-  --color-bg-3: #3A3A3A;
+  --color-bg-1: #FAF7F2;
+  --color-bg-2: #F2EDE6;
+  --color-bg-3: #E8E2DA;
 
   /* Borders */
-  --color-border: #3A3A3A;
-  --color-border-strong: #555555;
+  --color-border: #DDD7CE;
+  --color-border-strong: #C5BFBA;
 
   /* Text */
-  --color-fg: #FFFFFF;
-  --color-fg-dim: #B0B0B0;
-  --color-fg-faint: #7A7A7A;
+  --color-fg: #2A2A2A;
+  --color-fg-dim: #6B6B6B;
+  --color-fg-faint: #9A9A9A;
 
   /* Accent */
-  --color-accent: #7DD3FC;
-  --color-accent-sky: #60A5FA;
-  --color-accent-royal: #3B82F6;
-  --color-accent-dim: #7DD3FC33;
+  --color-accent: #2563EB;
+  --color-accent-sky: #3B82F6;
+  --color-accent-royal: #1D4ED8;
+  --color-accent-dim: #2563EB22;
 
   /* Fonts */
   --font-display: var(--font-clash-display), sans-serif;
@@ -31,9 +31,9 @@
   --max-w-container: 1240px;
 
   /* Shadows */
-  --shadow-card: 0 16px 48px -16px rgba(0, 0, 0, 0.6);
-  --shadow-modal: 0 24px 64px -16px rgba(0, 0, 0, 0.7);
-  --shadow-cta: 0 8px 32px -8px rgba(125, 211, 252, 0.53);
+  --shadow-card: 0 16px 48px -16px rgba(0, 0, 0, 0.08);
+  --shadow-modal: 0 24px 64px -16px rgba(0, 0, 0, 0.12);
+  --shadow-cta: 0 8px 32px -8px rgba(37, 99, 235, 0.3);
 
   /* Radius */
   --radius-card: 14px;
@@ -53,7 +53,7 @@ body {
 
 ::selection {
   background: var(--color-accent);
-  color: var(--color-bg-0);
+  color: #FFFFFF;
 }
 
 /* Scrollbar */
@@ -61,16 +61,16 @@ body {
   width: 10px;
 }
 ::-webkit-scrollbar-track {
-  background: var(--color-bg-0);
+  background: var(--color-bg-2);
 }
 ::-webkit-scrollbar-thumb {
-  background: var(--color-bg-3);
+  background: var(--color-border-strong);
   border-radius: 8px;
 }
 
 /* Glass card utility */
 .glass-card {
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0.04), rgba(255, 255, 255, 0.01));
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.4));
   border: 1px solid var(--color-border);
   border-radius: var(--radius-card);
 }

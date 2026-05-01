@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-export function Logo({ size = 20 }: { size?: number }) {
+export function Logo({ size = 20, className = "" }: { size?: number; className?: string }) {
   const height = size;
   const width = Math.round(height * (980 / 329));
 
@@ -10,7 +10,7 @@ export function Logo({ size = 20 }: { size?: number }) {
       alt="MANCO PARIS"
       width={width}
       height={height}
-      className="object-contain"
+      className={`object-contain ${className}`}
       priority
     />
   );

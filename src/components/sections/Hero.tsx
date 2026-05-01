@@ -12,7 +12,7 @@ export function Hero() {
   ];
 
   return (
-    <section className="grid grid-cols-1 lg:grid-cols-[1.4fr_1fr] bg-[radial-gradient(800px_400px_at_30%_0%,_var(--color-accent)/0.06,_transparent_60%)] bg-bg-1 border-b border-border">
+    <section className="grid grid-cols-1 lg:grid-cols-[1.4fr_1fr] bg-[radial-gradient(800px_400px_at_30%_0%,_var(--color-accent)/0.04,_transparent_60%)] bg-bg-1 border-b border-border">
       {/* Left — text */}
       <div className="px-12 max-md:px-6 pt-[100px] max-md:pt-20 pb-20 max-md:pb-12">
         <motion.div
@@ -43,7 +43,7 @@ export function Hero() {
           transition={{ duration: 0.4, delay: 0.2, ease: [0.23, 1, 0.32, 1] }}
           className="mt-10 flex gap-4 flex-wrap"
         >
-          <button className="px-7 py-4 bg-accent text-bg-0 rounded-full font-sans text-sm font-semibold shadow-cta cursor-pointer hover:brightness-110 transition-all">
+          <button className="px-7 py-4 bg-accent text-white rounded-full font-sans text-sm font-semibold shadow-cta cursor-pointer hover:brightness-110 transition-all">
             {t("ctaPrimary")} →
           </button>
           <button className="px-7 py-4 bg-transparent text-fg border border-border-strong rounded-full font-sans text-sm font-medium cursor-pointer hover:border-fg transition-colors">

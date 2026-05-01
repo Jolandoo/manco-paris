@@ -16,11 +16,10 @@
   --color-fg-dim: #6B6B6B;
   --color-fg-faint: #9A9A9A;
 
-  /* Accent */
-  --color-accent: #2563EB;
-  --color-accent-sky: #3B82F6;
-  --color-accent-royal: #1D4ED8;
-  --color-accent-dim: #2563EB22;
+  /* Accent — indigo */
+  --color-accent: #560591;
+  --color-accent-hover: #6B07B8;
+  --color-accent-dim: #56059122;
 
   /* Fonts */
   --font-display: var(--font-clash-display), sans-serif;
@@ -33,7 +32,7 @@
   /* Shadows */
   --shadow-card: 0 16px 48px -16px rgba(0, 0, 0, 0.08);
   --shadow-modal: 0 24px 64px -16px rgba(0, 0, 0, 0.12);
-  --shadow-cta: 0 8px 32px -8px rgba(37, 99, 235, 0.3);
+  --shadow-cta: 0 8px 32px -8px rgba(86, 5, 145, 0.35);
 
   /* Radius */
   --radius-card: 14px;

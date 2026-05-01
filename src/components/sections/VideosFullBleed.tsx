@@ -12,7 +12,7 @@ export function VideosFullBleed() {
   const shouldReduce = useReducedMotion();
 
   return (
-    <section id="familyOffice" className="py-[120px] max-md:py-16 px-12 max-md:px-6 bg-bg-0 border-b border-border scroll-mt-20">
+    <section id="familyOffice" className="py-[120px] max-md:py-16 px-12 max-md:px-6 bg-bg-0 border-b border-white/10 scroll-mt-20">
       <motion.div
         initial="hidden"
         whileInView="visible"
@@ -44,10 +44,10 @@ export function VideosFullBleed() {
                   }
             }
           >
-            <h3 className="font-display text-[clamp(24px,2.4vw,36px)] font-normal text-fg mb-4 tracking-[-0.015em]">
+            <h3 className="font-display text-[clamp(24px,2.4vw,36px)] font-normal text-white mb-4 tracking-[-0.015em]">
               {v.title}
             </h3>
-            <VideoTile label="PRÉSENTATION · 03:24" big />
+            <VideoTile label="PRÉSENTATION · 03:24" big dark />
           </motion.div>
         ))}
       </motion.div>

@@ -124,10 +124,10 @@ export function SGPDetail() {
   );
 }
 
-function VideoTile({ label, big = false }: { label: string; big?: boolean }) {
+function VideoTile({ label, big = false, dark = false }: { label: string; big?: boolean; dark?: boolean }) {
   return (
     <div
-      className={`relative bg-gradient-to-br from-bg-3 to-bg-2 border border-border rounded-xl overflow-hidden cursor-pointer transition-all duration-[220ms] hover:scale-[1.01] group ${big ? "aspect-video" : "aspect-[4/3]"}`}
+      className={`relative rounded-xl overflow-hidden cursor-pointer transition-all duration-[220ms] hover:scale-[1.01] group ${big ? "aspect-video" : "aspect-[4/3]"} ${dark ? "bg-gradient-to-br from-[#2D2D2D] to-[#222222] border border-white/10" : "bg-gradient-to-br from-bg-3 to-bg-2 border border-border"}`}
     >
       <div
         className="absolute inset-0"
@@ -138,12 +138,12 @@ function VideoTile({ label, big = false }: { label: string; big?: boolean }) {
       />
       <div className="absolute inset-0 flex items-center justify-center">
         <div
-          className={`rounded-full bg-accent flex items-center justify-center text-white pl-1 transition-shadow duration-[280ms] group-hover:shadow-[0_0_0_8px_rgba(37,99,235,0.15)] ${big ? "w-20 h-20 text-2xl" : "w-14 h-14 text-base"}`}
+          className={`rounded-full bg-accent flex items-center justify-center text-white pl-1 transition-shadow duration-[280ms] group-hover:shadow-[0_0_0_8px_rgba(86,5,145,0.15)] ${big ? "w-20 h-20 text-2xl" : "w-14 h-14 text-base"}`}
         >
           ▶
         </div>
       </div>
-      <div className="absolute left-4 bottom-3.5 font-mono text-[10px] text-fg tracking-[0.12em] bg-black/50 px-2 py-1 rounded">
+      <div className={`absolute left-4 bottom-3.5 font-mono text-[10px] tracking-[0.12em] px-2 py-1 rounded ${dark ? "text-white/80 bg-black/40" : "text-fg bg-black/50"}`}>
         {label}
       </div>
     </div>

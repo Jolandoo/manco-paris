@@ -44,7 +44,7 @@ export function Navbar() {
       )}
     >
       <Link href="/" className="hover:opacity-80 transition-opacity">
-        <Logo size={20} />
+        <Logo size={32} />
       </Link>
 
       {/* Desktop nav */}

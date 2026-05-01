@@ -7,6 +7,7 @@ import { routing } from "@/i18n/routing";
 import { Navbar } from "@/components/layout/Navbar";
 import { Footer } from "@/components/layout/Footer";
 import { CookieBanner } from "@/components/integrations/CookieBanner";
+import { GoogleAnalytics } from "@/components/integrations/GoogleAnalytics";
 
 const clashDisplay = localFont({
   src: "../../../public/fonts/ClashDisplay-Variable.woff2",
@@ -83,6 +84,7 @@ export default async function LocaleLayout({
           <main>{children}</main>
           <Footer />
           <CookieBanner />
+          <GoogleAnalytics />
         </NextIntlClientProvider>
       </body>
     </html>

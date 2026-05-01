@@ -1,4 +1,5 @@
 import { useTranslations } from "next-intl";
+import { Link } from "@/i18n/navigation";
 import { Logo } from "@/components/ui/Logo";
 
 const NAV_KEYS = [
@@ -63,8 +64,12 @@ export function Footer() {
         {/* Bottom bar */}
         <div className="flex flex-wrap justify-between items-center gap-4 max-md:flex-col max-md:items-start max-md:gap-2 pt-6 font-mono text-[11px] text-fg-faint tracking-[0.12em]">
           <span>{t("amf")}</span>
-          <span>
-            {t("legal")} · {t("privacy")} · {t("cookies")}
+          <span className="flex flex-wrap gap-x-1">
+            <Link href="/mentions-legales" className="hover:text-fg transition-colors">{t("legal")}</Link>
+            <span>·</span>
+            <Link href="/informations-reglementaires" className="hover:text-fg transition-colors">{t("privacy")}</Link>
+            <span>·</span>
+            <span>{t("cookies")}</span>
           </span>
         </div>
       </div>

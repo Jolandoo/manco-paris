@@ -8,7 +8,7 @@ export function Hero() {
   const shouldReduce = useReducedMotion();
 
   const stats = [
-    { key: "amf" as const, idx: "01" },
+    { key: "amf" as const },
   ];
 
   return (
@@ -54,7 +54,7 @@ export function Hero() {
 
       {/* Right — stats panel, staggered entrance */}
       <div className="border-l border-border bg-bg-2 grid grid-rows-1 max-lg:grid-rows-none max-lg:grid-cols-1 max-lg:border-l-0 max-lg:border-t">
-        {stats.map(({ key, idx }, i) => (
+        {stats.map(({ key }, i) => (
           <motion.div
             key={key}
             initial={shouldReduce ? false : { opacity: 0, y: 16 }}
@@ -66,10 +66,7 @@ export function Hero() {
             }}
             className={`px-8 max-md:px-6 py-9 max-md:py-6 flex flex-col justify-center ${i > 0 ? "border-t border-border max-lg:border-t-0 max-lg:border-l max-md:border-l-0 max-md:border-t" : ""}`}
           >
-            <div className="font-mono text-[10px] text-fg-faint tracking-[0.16em]">
-              {idx}
-            </div>
-            <div className="font-display text-[clamp(36px,4vw,56px)] font-normal text-fg mt-2 leading-none tracking-[-0.02em]">
+            <div className="font-display text-[clamp(36px,4vw,56px)] font-normal text-fg leading-none tracking-[-0.02em]">
               {t(`stats.${key}.big`)}
             </div>
             <div className="font-sans text-sm text-fg-dim mt-1.5">

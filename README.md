@@ -2,7 +2,7 @@
 
 Full redesign and migration of [MANCO.PARIS](https://manco.paris), a French AMF-regulated asset management company, from WordPress/Elementor to a modern JAMstack architecture.
 
-**Built by [Jolann Madec](https://github.com/Jolann) — Fullstack Software Engineer**
+**Built by [Jolann Madec](https://github.com/Jolandoo) — Fullstack Software Engineer**
 
 <p align="center">
   <img src="https://img.shields.io/badge/Next.js_15-000?logo=nextdotjs&logoColor=white" alt="Next.js" />

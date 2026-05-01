@@ -23,7 +23,7 @@
   --color-accent-dim: #7DD3FC33;
 
   /* Fonts */
-  --font-display: var(--font-instrument-serif), serif;
+  --font-display: var(--font-clash-display), sans-serif;
   --font-sans: var(--font-manrope), system-ui, sans-serif;
   --font-mono: var(--font-jetbrains-mono), ui-monospace, monospace;
 

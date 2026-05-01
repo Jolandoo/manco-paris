@@ -1,21 +1,17 @@
 import { notFound } from "next/navigation";
 import { NextIntlClientProvider, hasLocale } from "next-intl";
 import { getTranslations, setRequestLocale } from "next-intl/server";
-import {
-  Instrument_Serif,
-  Manrope,
-  JetBrains_Mono,
-} from "next/font/google";
+import { Manrope, JetBrains_Mono } from "next/font/google";
+import localFont from "next/font/local";
 import { routing } from "@/i18n/routing";
 import { Navbar } from "@/components/layout/Navbar";
 import { Footer } from "@/components/layout/Footer";
 
-const instrumentSerif = Instrument_Serif({
-  subsets: ["latin"],
-  weight: "400",
-  style: ["normal", "italic"],
-  variable: "--font-instrument-serif",
+const clashDisplay = localFont({
+  src: "../../../public/fonts/ClashDisplay-Variable.woff2",
+  variable: "--font-clash-display",
   display: "swap",
+  weight: "200 700",
 });
 
 const manrope = Manrope({
@@ -78,7 +74,7 @@ export default async function LocaleLayout({
   return (
     <html
       lang={locale}
-      className={`${instrumentSerif.variable} ${manrope.variable} ${jetbrainsMono.variable} antialiased`}
+      className={`${clashDisplay.variable} ${manrope.variable} ${jetbrainsMono.variable} antialiased`}
     >
       <body className="min-h-screen bg-bg-1 text-fg font-sans">
         <NextIntlClientProvider>

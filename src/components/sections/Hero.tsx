@@ -53,7 +53,7 @@ export function Hero() {
       </div>
 
       {/* Right — stats panel, staggered entrance */}
-      <div className="border-l border-border bg-bg-2 grid grid-rows-1 max-lg:grid-rows-none max-lg:grid-cols-1 max-lg:border-l-0 max-lg:border-t">
+      <div className="border-l border-border bg-bg-2 flex items-center justify-center max-lg:border-l-0 max-lg:border-t">
         {stats.map(({ key }, i) => (
           <motion.div
             key={key}
@@ -64,7 +64,7 @@ export function Hero() {
               delay: 0.3 + i * 0.1,
               ease: [0.23, 1, 0.32, 1],
             }}
-            className={`px-8 max-md:px-6 py-9 max-md:py-6 flex flex-col justify-center ${i > 0 ? "border-t border-border max-lg:border-t-0 max-lg:border-l max-md:border-l-0 max-md:border-t" : ""}`}
+            className="px-8 max-md:px-6 py-9 max-md:py-6 flex flex-col items-center text-center"
           >
             <div className="font-display text-[clamp(36px,4vw,56px)] font-normal text-fg leading-none tracking-[-0.02em]">
               {t(`stats.${key}.big`)}

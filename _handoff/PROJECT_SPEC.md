@@ -145,7 +145,8 @@ Liste des vidéos :
 Le site actuel utilise une palette bleu marine (#1a2744 approx.) + blanc + accents bleu clair. Le design est corporate classique.
 
 **Direction pour la refonte :**
-- Conserver la palette bleu marine / blanc / bleu clair pour ne pas perdre l'identité
+- Dark theme basé sur la couleur principale du site actuel (#2D2D2D anthracite), modernisé avec des effets de profondeur (glassmorphism, bordures semi-transparentes, ombres subtiles)
+- Palette : anthracite (#2D2D2D), noir profond (#1A1A1A), gris foncé (#3A3A3A), blanc (#FFFFFF), gris clair (#B0B0B0), + accent bleu moderne à valider
 - Moderniser la typographie (remplacer les fonts WordPress par une paire distinctive)
 - Aérer les sections, ajouter du whitespace
 - Animations subtiles au scroll (fade-in, stagger)

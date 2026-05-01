@@ -63,20 +63,40 @@
     "metaTitle": "Mentions légales — MANCO PARIS",
     "title": "Mentions légales",
     "editor": {
-      "title": "Éditeur du site",
-      "body": "MANCO PARIS — Société de gestion de portefeuille agréée par l'Autorité des Marchés Financiers sous le n° GP-21000001. SAS. RCS Paris 889 423 612. Siège social : 7 rue Roy, 75 008 Paris. Directeur de la publication : Jérôme Coirier."
-    },
-    "hosting": {
-      "title": "Hébergement",
-      "body": "Ce site est hébergé par OVH, 2 rue Kellermann, 59100 Roubaix."
+      "title": "1. Éditeur du site",
+      "body": "Éditeur : MANCO.PARIS, SAS (Société par Actions Simplifiée), RCS Paris n° 889 423 612.\nReprésentant / Directeur de la publication : Jérôme Coirier.\nCompliance : compliance@manco.paris\nTéléphone : +33 (0)1 88 40 45 76\nHébergeur : OVH, 2 rue Kellermann, 59100 Roubaix.\nLangue officielle : français ; compétence de la juridiction française."
     },
     "dpo": {
-      "title": "Protection des données",
-      "body": "Conformément au Règlement Général sur la Protection des Données (RGPD) et à la loi Informatique et Libertés, vous disposez d'un droit d'accès, de rectification, de suppression et d'opposition au traitement de vos données personnelles. Pour exercer ces droits, contactez-nous à dpo@manco.paris."
+      "title": "2. Protection des données personnelles (RGPD)",
+      "body": "Responsable du traitement / DPO : Jérôme Coirier — dpo@manco.paris\n\nDonnées collectées : identification (nom, prénom, adresse, téléphone, email, société) et informations professionnelles/financières.\n\nDurée de conservation :\n— Pendant la relation commerciale + 3 ans après le dernier échange\n— 10 ans pour les obligations légales, comptables et fiscales\n— 5 ans pour les preuves prescriptibles\n\nDroits des personnes : accès, rectification, effacement, limitation, opposition, portabilité ; possibilité de réclamation auprès de la CNIL.\n\nCNIL : 3 Place de Fontenoy, TSA 80715, 75334 Paris Cedex 07 — Tél : 01 53 73 22 22"
     },
-    "cookies": {
-      "title": "Cookies",
-      "body": "Ce site utilise des cookies strictement nécessaires à son fonctionnement. Des cookies de mesure d'audience peuvent être utilisés avec votre consentement. Vous pouvez gérer vos préférences via le widget hu-manity.co en bas à gauche de votre écran."
+    "purpose": {
+      "title": "3. Objet du site",
+      "body": "Ce site est purement informatif (non transactionnel). Son contenu est indicatif et modifiable sans préavis. Il ne constitue pas une offre publique ni une sollicitation d'investissement."
+    },
+    "content": {
+      "title": "4. Contenu et responsabilités",
+      "body": "MANCO.PARIS s'efforce d'assurer au mieux l'exactitude et la mise à jour des informations diffusées sur ce site. Les liens externes ne sont pas contrôlés par MANCO.PARIS ; responsabilité limitée. Droits d'auteur réservés ; reproduction interdite sans autorisation écrite."
+    },
+    "access": {
+      "title": "5. Accès au site",
+      "body": "MANCO.PARIS se réserve le droit de modifier, résilier ou suspendre l'accès au site sans préavis."
+    },
+    "ip": {
+      "title": "6. Propriété intellectuelle",
+      "body": "L'ensemble du contenu du site (textes, images, bases de données, graphiques) est la propriété exclusive de MANCO.PARIS, protégé par le droit de la propriété intellectuelle français."
+    },
+    "contact": {
+      "title": "7. Coordonnées de contact",
+      "body": "Email commercial : sales@manco.paris\nTéléphone : +33 (0)1 88 40 45 76\nBureaux : 25 rue de Ponthieu, 75 008 Paris\nSiège social : 7 rue Roy, 75 008 Paris"
+    },
+    "amf": {
+      "title": "8. Informations réglementaires",
+      "body": "Société de gestion agréée AMF sous le n° GP-21000001 (20 janvier 2021)."
+    },
+    "shareholders": {
+      "title": "9. Actionnaires",
+      "body": "Banque Delubac & Cie\nHolding BCM (avec BeeAM et Cid Consulting)"
     }
   },
   "regulatory": {

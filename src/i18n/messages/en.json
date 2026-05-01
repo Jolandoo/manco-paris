@@ -63,20 +63,40 @@
     "metaTitle": "Legal Notice — MANCO PARIS",
     "title": "Legal Notice",
     "editor": {
-      "title": "Website Publisher",
-      "body": "MANCO PARIS — Portfolio management company approved by the Autorité des Marchés Financiers under n° GP-21000001. SAS. Paris Trade Register 889 423 612. Registered office: 7 rue Roy, 75 008 Paris. Publication Director: Jérôme Coirier."
-    },
-    "hosting": {
-      "title": "Hosting",
-      "body": "This website is hosted by OVH, 2 rue Kellermann, 59100 Roubaix, France."
+      "title": "1. Website Publisher",
+      "body": "Publisher: MANCO.PARIS, SAS (Simplified Joint-Stock Company), Paris Trade Register n° 889 423 612.\nRepresentative / Publication Director: Jérôme Coirier.\nCompliance: compliance@manco.paris\nPhone: +33 (0)1 88 40 45 76\nHost: OVH, 2 rue Kellermann, 59100 Roubaix, France.\nOfficial language: French; French jurisdiction."
     },
     "dpo": {
-      "title": "Data Protection",
-      "body": "In accordance with the General Data Protection Regulation (GDPR), you have the right to access, rectify, delete and oppose the processing of your personal data. To exercise these rights, contact us at dpo@manco.paris."
+      "title": "2. Personal Data Protection (GDPR)",
+      "body": "Data controller / DPO: Jérôme Coirier — dpo@manco.paris\n\nData collected: identification (name, address, phone, email, company) and professional/financial information.\n\nRetention period:\n— During the business relationship + 3 years after the last exchange\n— 10 years for legal, accounting and tax obligations\n— 5 years for prescriptive evidence\n\nIndividual rights: access, rectification, erasure, restriction, objection, portability; right to file a complaint with the CNIL.\n\nCNIL: 3 Place de Fontenoy, TSA 80715, 75334 Paris Cedex 07 — Phone: 01 53 73 22 22"
     },
-    "cookies": {
-      "title": "Cookies",
-      "body": "This website uses cookies strictly necessary for its operation. Audience measurement cookies may be used with your consent. You can manage your preferences via the hu-manity.co widget at the bottom left of your screen."
+    "purpose": {
+      "title": "3. Purpose of the Website",
+      "body": "This website is purely informational (non-transactional). Its content is indicative and may be modified without prior notice. It does not constitute a public offering or a solicitation for investment."
+    },
+    "content": {
+      "title": "4. Content and Liability",
+      "body": "MANCO.PARIS strives to ensure the accuracy and timeliness of the information published on this website. External links are not controlled by MANCO.PARIS; limited liability. Copyright reserved; reproduction prohibited without written authorization."
+    },
+    "access": {
+      "title": "5. Website Access",
+      "body": "MANCO.PARIS reserves the right to modify, terminate or suspend access to the website without prior notice."
+    },
+    "ip": {
+      "title": "6. Intellectual Property",
+      "body": "All website content (text, images, databases, graphics) is the exclusive property of MANCO.PARIS, protected by French intellectual property law."
+    },
+    "contact": {
+      "title": "7. Contact Details",
+      "body": "Sales email: sales@manco.paris\nPhone: +33 (0)1 88 40 45 76\nOffices: 25 rue de Ponthieu, 75 008 Paris\nRegistered office: 7 rue Roy, 75 008 Paris"
+    },
+    "amf": {
+      "title": "8. Regulatory Information",
+      "body": "AMF-approved portfolio management company under n° GP-21000001 (January 20, 2021)."
+    },
+    "shareholders": {
+      "title": "9. Shareholders",
+      "body": "Banque Delubac & Cie\nHolding BCM (with BeeAM and Cid Consulting)"
     }
   },
   "regulatory": {

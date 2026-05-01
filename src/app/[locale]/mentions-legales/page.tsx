@@ -26,17 +26,12 @@ export default async function MentionsLegalesPage({
           {t("title")}
         </h1>
         <div className="mt-10 prose-manco">
-          <h2>{t("editor.title")}</h2>
-          <p>{t("editor.body")}</p>
-
-          <h2>{t("hosting.title")}</h2>
-          <p>{t("hosting.body")}</p>
-
-          <h2>{t("dpo.title")}</h2>
-          <p>{t("dpo.body")}</p>
-
-          <h2>{t("cookies.title")}</h2>
-          <p>{t("cookies.body")}</p>
+          {(["editor", "dpo", "purpose", "content", "access", "ip", "contact", "amf", "shareholders"] as const).map((key) => (
+            <div key={key}>
+              <h2>{t(`${key}.title`)}</h2>
+              <p className="whitespace-pre-line">{t(`${key}.body`)}</p>
+            </div>
+          ))}
         </div>
       </div>
     </article>

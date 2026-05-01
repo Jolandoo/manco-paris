@@ -26,17 +26,26 @@ export default async function InformationsReglementairesPage({
           {t("title")}
         </h1>
         <div className="mt-10 prose-manco">
+          <h2>{t("vote.title")}</h2>
+          <p>{t("vote.body")}</p>
+
           <h2>{t("esg.title")}</h2>
           <p>{t("esg.body")}</p>
 
           <h2>{t("sfdr.title")}</h2>
           <p>{t("sfdr.body")}</p>
 
-          <h2>{t("vote.title")}</h2>
-          <p>{t("vote.body")}</p>
-
           <h2>{t("remuneration.title")}</h2>
           <p>{t("remuneration.body")}</p>
+
+          <h2>{t("claims.title")}</h2>
+          <p>{t("claims.body")}</p>
+
+          <h2>{t("conflicts.title")}</h2>
+          <p>{t("conflicts.body")}</p>
+
+          <h2>{t("bestSelection.title")}</h2>
+          <p>{t("bestSelection.body")}</p>
         </div>
       </div>
     </article>

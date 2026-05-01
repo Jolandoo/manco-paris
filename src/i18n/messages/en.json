@@ -37,6 +37,7 @@
   "team": {
     "eyebrow": "06 / THE TEAM",
     "title": "The faces behind <accent>MANCO</accent>.",
+    "intro": "We created MANCO.PARIS to bring an answer to asset management in France and its entrepreneurial dynamic. We are experts, this is our sole activity, in perfect alignment of interest with our clients.",
     "contact": "Contact",
     "collapse": "collapse"
   },
@@ -63,11 +64,11 @@
     "title": "Legal Notice",
     "editor": {
       "title": "Website Publisher",
-      "body": "MANCO PARIS — Portfolio management company approved by the Autorité des Marchés Financiers under n° GP-21000001. SAS with capital of €XXX,XXX. Paris Trade Register XXX XXX XXX. Registered office: 7 rue Roy, 75 008 Paris. Publication Director: [Name]."
+      "body": "MANCO PARIS — Portfolio management company approved by the Autorité des Marchés Financiers under n° GP-21000001. SAS. Paris Trade Register 889 423 612. Registered office: 7 rue Roy, 75 008 Paris. Publication Director: Jérôme Coirier."
     },
     "hosting": {
       "title": "Hosting",
-      "body": "This website is hosted by Vercel Inc., 340 S Lemon Ave #4133, Walnut, CA 91789, United States."
+      "body": "This website is hosted by OVH, 2 rue Kellermann, 59100 Roubaix, France."
     },
     "dpo": {
       "title": "Data Protection",
@@ -81,21 +82,33 @@
   "regulatory": {
     "metaTitle": "Regulatory Information — MANCO PARIS",
     "title": "Regulatory Information",
-    "esg": {
-      "title": "ESG / SRI Policy",
-      "body": "MANCO PARIS integrates environmental, social and governance (ESG) criteria into its management processes in accordance with applicable regulatory requirements. Our ESG policy is available upon request."
-    },
-    "sfdr": {
-      "title": "SFDR — Sustainable Finance Disclosure Regulation",
-      "body": "In application of Regulation (EU) 2019/2088, MANCO PARIS publishes information relating to the consideration of sustainability risks in its investment decisions and remuneration policy."
-    },
     "vote": {
       "title": "Voting Policy",
-      "body": "MANCO PARIS exercises voting rights attached to securities held by the funds it manages, in accordance with its voting policy adopted by the Board. The annual voting rights report is available upon request."
+      "body": "As MANCO.PARIS does not carry out financial management activities on its own behalf, the voting policy as defined by article 321-132 of the AMF General Regulation does not apply to the company."
+    },
+    "esg": {
+      "title": "ESG Policy",
+      "body": "As MANCO.PARIS does not carry out financial management or investment activities on its own behalf, it cannot formally integrate criteria related to social, environmental, or governance objectives. However, MANCO.PARIS pays particular attention to the consideration of these criteria in the investment processes of the management companies to which it delegates fund management."
+    },
+    "sfdr": {
+      "title": "Sustainability Risk Policy",
+      "body": "As MANCO.PARIS does not carry out financial management activities on its own behalf, it cannot integrate sustainability risks as such. However, in the context of its service activities for management companies, it ensures that these companies begin to take these risks into account in their investment decisions, particularly risks associated with climate and biodiversity."
     },
     "remuneration": {
       "title": "Remuneration Policy",
-      "body": "MANCO PARIS remuneration policy complies with the requirements of the AIFM Directive and UCITS V Directive. It aims to promote sound and effective risk management. Details are available upon request."
+      "body": "As MANCO.PARIS does not carry out financial management activities on its own behalf, it cannot integrate sustainability risks into its remuneration policy. However, its employees are encouraged to take sustainability risks into account in their activities."
+    },
+    "claims": {
+      "title": "Complaints Handling",
+      "body": "In accordance with applicable regulatory requirements (cf. art. 321-40 of the AMF General Regulation), MANCO.PARIS has established and maintains an operational procedure for the effective handling of client complaints. Any complaint may be sent to claim@manco.paris, or by post to: MANCO.PARIS, complaints department, 7 rue Roy, 75008 Paris."
+    },
+    "conflicts": {
+      "title": "Conflicts of Interest Policy",
+      "body": "MANCO.PARIS takes all necessary measures to detect conflicts of interest situations that may arise in the course of its activities. In accordance with current regulations, MANCO.PARIS has a conflicts of interest management policy. This policy can be obtained upon request from the management company."
+    },
+    "bestSelection": {
+      "title": "Best Selection Policy",
+      "body": "MANCO.PARIS does not carry out financial management activities on its own behalf and therefore does not select financial intermediaries."
     }
   },
   "publications": {

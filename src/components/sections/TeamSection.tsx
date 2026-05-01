@@ -27,6 +27,9 @@ export function TeamSection() {
               ),
             })}
           </h2>
+          <p className="text-fg-dim font-sans text-base leading-relaxed mt-6 max-w-[640px]">
+            {t("intro")}
+          </p>
         </FadeIn>
 
         <motion.div

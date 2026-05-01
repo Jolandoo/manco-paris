@@ -37,6 +37,7 @@
   "team": {
     "eyebrow": "06 / L'ÉQUIPE",
     "title": "Les visages derrière <accent>MANCO</accent>.",
+    "intro": "Nous avons créé MANCO.PARIS dans le but d'apporter une réponse à la gestion d'actifs en France et sa dynamique d'entrepreneurs. Nous sommes des experts, nous ne faisons que cette activité, en parfait alignement d'intérêt avec nos clients.",
     "contact": "Contacter",
     "collapse": "réduire"
   },
@@ -63,11 +64,11 @@
     "title": "Mentions légales",
     "editor": {
       "title": "Éditeur du site",
-      "body": "MANCO PARIS — Société de gestion de portefeuille agréée par l'Autorité des Marchés Financiers sous le n° GP-21000001. SAS au capital de XXX XXX €. RCS Paris XXX XXX XXX. Siège social : 7 rue Roy, 75 008 Paris. Directeur de la publication : [Nom du dirigeant]."
+      "body": "MANCO PARIS — Société de gestion de portefeuille agréée par l'Autorité des Marchés Financiers sous le n° GP-21000001. SAS. RCS Paris 889 423 612. Siège social : 7 rue Roy, 75 008 Paris. Directeur de la publication : Jérôme Coirier."
     },
     "hosting": {
       "title": "Hébergement",
-      "body": "Ce site est hébergé par Vercel Inc., 340 S Lemon Ave #4133, Walnut, CA 91789, États-Unis."
+      "body": "Ce site est hébergé par OVH, 2 rue Kellermann, 59100 Roubaix."
     },
     "dpo": {
       "title": "Protection des données",
@@ -81,21 +82,33 @@
   "regulatory": {
     "metaTitle": "Informations réglementaires — MANCO PARIS",
     "title": "Informations réglementaires",
-    "esg": {
-      "title": "Politique ESG / ISR",
-      "body": "MANCO PARIS intègre les critères environnementaux, sociaux et de gouvernance (ESG) dans ses processus de gestion conformément aux exigences réglementaires applicables. Notre politique ESG est disponible sur demande."
-    },
-    "sfdr": {
-      "title": "SFDR — Sustainable Finance Disclosure Regulation",
-      "body": "En application du règlement (UE) 2019/2088, MANCO PARIS publie les informations relatives à la prise en compte des risques de durabilité dans ses décisions d'investissement et dans sa politique de rémunération."
-    },
     "vote": {
       "title": "Politique de vote",
-      "body": "MANCO PARIS exerce les droits de vote attachés aux titres détenus par les fonds qu'elle gère, conformément à sa politique de vote adoptée par le Directoire. Le rapport annuel d'exercice des droits de vote est disponible sur demande."
+      "body": "MANCO.PARIS n'exerçant pas en propre d'activité de gestion financière, la politique de vote entendue au sens de l'article 321-132 du RG AMF n'est pas applicable à la société."
+    },
+    "esg": {
+      "title": "Politique ESG",
+      "body": "MANCO.PARIS n'exerçant pas en propre d'activité de gestion financière, et donc pas d'investissement, la société ne peut intégrer de manière formelle des critères relatifs au respect d'objectifs sociaux, environnementaux ou de qualité de gouvernance. Cependant, sensibilisée à cette problématique, MANCO.PARIS accorde une importance particulière à la prise en charge de ces critères dans les process d'investissement des sociétés de gestion auxquelles elle délègue la gestion des fonds."
+    },
+    "sfdr": {
+      "title": "Politique relative aux risques de durabilité",
+      "body": "MANCO.PARIS n'exerçant pas en propre d'activités de gestion financière, ne peut intégrer à ce titre les risques de durabilité. Cependant, dans le cadre de ses activités de prestation de services auprès des SGP, elle veille à ce que ces sociétés commencent à prendre en compte ces risques dans leurs décisions d'investissement, notamment les risques associés au climat et à la biodiversité."
     },
     "remuneration": {
       "title": "Politique de rémunération",
-      "body": "La politique de rémunération de MANCO PARIS est conforme aux exigences de la directive AIFM et de la directive UCITS V. Elle vise à promouvoir une gestion saine et efficace des risques. Les détails sont disponibles sur demande."
+      "body": "MANCO.PARIS n'exerçant pas en propre d'activités de gestion financière ne peut intégrer à ce titre ou dans sa politique de rémunération la prise en compte des risques de durabilité. Cependant, ses collaborateurs sont incités à tenir compte des risques de durabilité dans l'exercice de leurs activités."
+    },
+    "claims": {
+      "title": "Traitement des réclamations",
+      "body": "Conformément aux exigences réglementaires applicables (cf. art. 321-40 du RG AMF), MANCO.PARIS a établi et maintient opérationnelle une procédure en vue du traitement efficace des réclamations adressées par ses clients. Toute réclamation peut être transmise à claim@manco.paris, ou par courrier postal à : MANCO.PARIS, service réclamation, 7 rue Roy, 75008 Paris."
+    },
+    "conflicts": {
+      "title": "Politique de gestion des conflits d'intérêts",
+      "body": "MANCO.PARIS prend toutes les mesures nécessaires afin de détecter les situations de conflits d'intérêts pouvant apparaître dans le cadre de ses activités. Conformément à la réglementation en vigueur, MANCO.PARIS dispose d'une politique de gestion des conflits d'intérêt. Cette politique peut être obtenue sur simple demande auprès de la société de gestion."
+    },
+    "bestSelection": {
+      "title": "Politique de meilleure sélection",
+      "body": "MANCO.PARIS n'exerce pas en propre d'activités de gestion financière et à ce titre ne procède pas à la sélection d'intermédiaires financiers."
     }
   },
   "publications": {

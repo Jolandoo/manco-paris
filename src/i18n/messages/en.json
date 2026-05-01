@@ -63,40 +63,74 @@
     "metaTitle": "Legal Notice — MANCO PARIS",
     "title": "Legal Notice",
     "editor": {
-      "title": "1. Website Publisher",
-      "body": "Publisher: MANCO.PARIS, SAS (Simplified Joint-Stock Company), Paris Trade Register n° 889 423 612.\nRepresentative / Publication Director: Jérôme Coirier.\nCompliance: compliance@manco.paris\nPhone: +33 (0)1 88 40 45 76\nHost: OVH, 2 rue Kellermann, 59100 Roubaix, France.\nOfficial language: French; French jurisdiction."
+      "title": "Website Publisher",
+      "body": "This website is published by MANCO.PARIS, SAS, Paris Trade Register number 889423612, represented by Jérôme Coirier.\n\nPublication Director: Jérôme Coirier\nEmail: compliance@manco.paris\nPhone: +33 (0)1 88 40 45 76\nHost: OVH, 2 rue Kellermann, 59100 Roubaix / 1007\n\nThe official language of this website is French. It is subject to French law and the jurisdiction of French courts."
     },
     "dpo": {
-      "title": "2. Personal Data Protection (GDPR)",
-      "body": "Data controller / DPO: Jérôme Coirier — dpo@manco.paris\n\nData collected: identification (name, address, phone, email, company) and professional/financial information.\n\nRetention period:\n— During the business relationship + 3 years after the last exchange\n— 10 years for legal, accounting and tax obligations\n— 5 years for prescriptive evidence\n\nIndividual rights: access, rectification, erasure, restriction, objection, portability; right to file a complaint with the CNIL.\n\nCNIL: 3 Place de Fontenoy, TSA 80715, 75334 Paris Cedex 07 — Phone: 01 53 73 22 22"
+      "title": "Personal Data Protection",
+      "principles": {
+        "title": "General Principles",
+        "body": "The General Data Protection Regulation (GDPR) came into effect on May 25, 2018. All companies, including management companies, are required to comply with this European regulation by ensuring respect for the rights of data subjects. The previous system, based on CNIL oversight through a declaratory regime via prior declarations (cf. Data Protection Act of 1978), has been abolished. It is now a logic of accountability based on a risk-based approach. Companies must ensure that all persons whose personal data is processed are informed about the type of information collected, how the company uses this information, the retention period for this data, and the possibility of requesting modification or deletion. This compliance first requires mapping or inventorying all files containing personal information, both internal (e.g., employees) and external (clients, service providers…), ensuring the security of this data, and being able to justify it at any time. The company must have all data subjects accept its data processing policy."
+      },
+      "framework": {
+        "title": "Regulatory Framework",
+        "body": "Regulation (EU) 2016/679 of the European Parliament and of the Council of 27 April 2016 on the protection of natural persons with regard to the processing of personal data and on the free movement of such data, and repealing Directive 95/46/EC (General Data Protection Regulation)."
+      },
+      "objectives": {
+        "title": "Objectives",
+        "body": "This data processing policy aims to clarify and establish the framework applicable to all personal data held by MANCO.PARIS. It distinguishes between internal data processing (employees in particular) and external data (clients, service providers…). The implementation of the GDPR concretely involves for MANCO.PARIS:\n\n• The appointment of a data processing and monitoring officer: The designated person is Jérôme COIRIER – He can be contacted at: dpo@manco.paris.\n• The establishment of a personal data processing register to inventory personal data collected and its purposes.\n• The implementation of a general data and cookie processing policy available on our website for user information.\n• Information at the time of account creation about our personal data processing policy, user rights, and data usage.\n• Information to all our clients and service providers about our general personal data processing policy."
+      },
+      "dataCollected": {
+        "title": "Data Collected",
+        "body": "Data collected relates to identification (surname, first name, postal address, phone number, email address, company), professional, economic or financial situation (position held within the company, client categorization…). The client is informed of their rights at the time of data collection and throughout the duration of the contract."
+      },
+      "dataUse": {
+        "title": "Use of Data",
+        "body": "MANCO.PARIS collects your personal data solely in the context of your information requests and our commercial exchanges. This data is used exclusively by MANCO.PARIS to inform you about its activities."
+      },
+      "registry": {
+        "title": "Record Keeping",
+        "body": "A register is maintained by the management company under the oversight of the data processing and monitoring officer. This register classifies and inventories all personal data collected by the company."
+      },
+      "rights": {
+        "title": "Information on Your Rights",
+        "body": "In accordance with current regulations, you have:\n\n• The right of access to personal data concerning you\n• The right to rectification, modification or erasure thereof\n• The right to restriction of processing relating to this personal data\n• The right to object to processing (unless necessary to comply with our legal and regulatory obligations)\n• The right to data portability\n• The right to lodge a complaint with the CNIL\n\nInformation on your rights is communicated via our website's data processing updates."
+      },
+      "retention": {
+        "title": "Personal Data Retention Period",
+        "body": "Personal data cannot be stored indefinitely in digital files. Your personal data will be retained throughout the business relationship and deleted after a period of three years following our last exchange in the absence of a business relationship.\n\nHowever, there are cases where your data may be retained longer:\n• To meet legal, accounting or tax obligations (10 years)\n• For the preservation of evidence during applicable limitation periods (5 years)"
+      },
+      "contactDpo": {
+        "title": "Contact Us",
+        "body": "You may address any complaint regarding the processing of your personal data by email to the data processing and monitoring officer at: dpo@manco.paris, or by post to: MANCO.PARIS, 7 rue Roy 75008 PARIS.\n\nIf dissatisfied with the processing of your personal data, you may lodge a complaint in France with the Commission Nationale de l'Informatique et des Libertés (C.N.I.L) at: Service des plaintes, 3 Place de Fontenoy, TSA 80715 – 75334 Paris Cedex 07 – 01 53 73 22 22 – www.cnil.fr/fr/plaintes"
+      }
     },
     "purpose": {
-      "title": "3. Purpose of the Website",
-      "body": "This website is purely informational (non-transactional). Its content is indicative and may be modified without prior notice. It does not constitute a public offering or a solicitation for investment."
+      "title": "Purpose of the Website",
+      "body": "The Manco Paris website is strictly informational, aiming to present asset management activities. All information available on the site is exclusively indicative. This is not a transactional website.\n\nAny information may be modified without prior notice by the company. Under no circumstances does information published on the site represent an offer of products or services that could be considered a public savings offer, or canvassing or solicitation to buy or sell any management or investment product."
     },
     "content": {
-      "title": "4. Content and Liability",
-      "body": "MANCO.PARIS strives to ensure the accuracy and timeliness of the information published on this website. External links are not controlled by MANCO.PARIS; limited liability. Copyright reserved; reproduction prohibited without written authorization."
+      "title": "Content",
+      "responsibilities": {
+        "title": "Liability",
+        "body": "Manco Paris strives to ensure the accuracy and timeliness of information published on this site, and reserves the right to correct content at any time without prior notice.\n\nWe advise visitors to verify information through other means, including by contacting us. Consequently, we disclaim all liability: for any inaccuracy, inexactitude or omission regarding information available on the site; for any damage resulting from a fraudulent intrusion by a third party that led to modification of information made available on the site.\n\nExternal sites linked to Manco.paris are not under its control, and it consequently disclaims all liability for their content. These links do not constitute approval or partnership between the company and these sites, which are subject to their own terms of use and privacy policies.\n\nAny dissemination or reference to external documents shall mention at least:\n— the source of information and the period to which the information relates\n— whether it is an extract or the entirety of a document\n— the origin, date and references of the document"
+      },
+      "hyperlinks": {
+        "title": "Hyperlinks",
+        "body": "The establishment of hyperlinks by any person to the site without the knowledge of Manco Paris is not authorized. Before setting up any such links, you must request permission from Manco Paris. Your request should be addressed to the company at its registered office or by filling out our contact form."
+      },
+      "copyright": {
+        "title": "Copyright and Intellectual Property",
+        "body": "The use of any document from the website https://manco-paris.com/ is authorized only for private and personal information purposes. Any reuse, reproduction, transcription or modification for other purposes is expressly prohibited without prior written authorization from the company.\n\nThe site and all its constituent elements, including: texts, still or animated images, sound compositions, graphic design, databases, etc., are the exclusive property of MANCO.PARIS and are protected under the provisions of the French Intellectual Property Code.\n\nTrademarks, trade names and logos appearing on this site are registered. Their total or partial reproduction from site elements is prohibited."
+      },
+      "copyrightUsage": {
+        "title": "Copyright",
+        "body": "Users of the Manco Paris website undertake to respect the intellectual property rules of the various content offered on the site, namely:\n\n• Not to reproduce, summarize, modify, alter or redistribute, without prior authorization from the company, any article, title, application, software, logo, brand, information, illustration or photograph for purposes other than strictly private use, which excludes any reproduction for professional or mass distribution purposes.\n• Not to copy all or part of the site to another site or an internal corporate network."
+      }
     },
     "access": {
-      "title": "5. Website Access",
-      "body": "MANCO.PARIS reserves the right to modify, terminate or suspend access to the website without prior notice."
-    },
-    "ip": {
-      "title": "6. Intellectual Property",
-      "body": "All website content (text, images, databases, graphics) is the exclusive property of MANCO.PARIS, protected by French intellectual property law."
-    },
-    "contact": {
-      "title": "7. Contact Details",
-      "body": "Sales email: sales@manco.paris\nPhone: +33 (0)1 88 40 45 76\nOffices: 25 rue de Ponthieu, 75 008 Paris\nRegistered office: 7 rue Roy, 75 008 Paris"
-    },
-    "amf": {
-      "title": "8. Regulatory Information",
-      "body": "AMF-approved portfolio management company under n° GP-21000001 (January 20, 2021)."
-    },
-    "shareholders": {
-      "title": "9. Shareholders",
-      "body": "Banque Delubac & Cie\nHolding BCM (with BeeAM and Cid Consulting)"
+      "title": "Website Access",
+      "body": "Manco Paris reserves the right to modify, terminate, suspend or interrupt at any time, for any reason and at its sole discretion, access to all or part of the site, including content, features or availability hours, without prior notice."
     }
   },
   "regulatory": {

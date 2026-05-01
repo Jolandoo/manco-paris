@@ -63,40 +63,74 @@
     "metaTitle": "Mentions légales — MANCO PARIS",
     "title": "Mentions légales",
     "editor": {
-      "title": "1. Éditeur du site",
-      "body": "Éditeur : MANCO.PARIS, SAS (Société par Actions Simplifiée), RCS Paris n° 889 423 612.\nReprésentant / Directeur de la publication : Jérôme Coirier.\nCompliance : compliance@manco.paris\nTéléphone : +33 (0)1 88 40 45 76\nHébergeur : OVH, 2 rue Kellermann, 59100 Roubaix.\nLangue officielle : français ; compétence de la juridiction française."
+      "title": "Éditeur du site",
+      "body": "Ce site Internet est édité par MANCO.PARIS, SAS, RCS Paris numéro 889423612, représenté par Jérôme Coirier.\n\nDirecteur de la publication : Jérôme Coirier\nEmail : compliance@manco.paris\nTéléphone : +33 (0)1 88 40 45 76\nHébergeur : OVH, 2 rue Kellermann, 59100 Roubaix / 1007\n\nCe site a pour langue officielle la langue française. Il est soumis au droit français et à la compétence des juridictions françaises."
     },
     "dpo": {
-      "title": "2. Protection des données personnelles (RGPD)",
-      "body": "Responsable du traitement / DPO : Jérôme Coirier — dpo@manco.paris\n\nDonnées collectées : identification (nom, prénom, adresse, téléphone, email, société) et informations professionnelles/financières.\n\nDurée de conservation :\n— Pendant la relation commerciale + 3 ans après le dernier échange\n— 10 ans pour les obligations légales, comptables et fiscales\n— 5 ans pour les preuves prescriptibles\n\nDroits des personnes : accès, rectification, effacement, limitation, opposition, portabilité ; possibilité de réclamation auprès de la CNIL.\n\nCNIL : 3 Place de Fontenoy, TSA 80715, 75334 Paris Cedex 07 — Tél : 01 53 73 22 22"
+      "title": "Protection des données personnelles",
+      "principles": {
+        "title": "Principes généraux",
+        "body": "Le Règlement général sur la protection des données personnelles (RGPD) est entré en application le 25 Mai 2018. Toute société, y compris les sociétés de gestion, est tenue de se mettre en conformité avec ce règlement européen en veillant à assurer aux personnes concernées le respect de leurs droits. Le système antérieur, basé sur un contrôle de la CNIL sur la base d'un régime déclaratif via des déclarations préalables (cf Loi informatique et libertés de 1978), est supprimé. Il s'agit désormais d'une logique de responsabilisation s'appuyant sur une approche fondée sur les risques. Les sociétés devront veiller à ce que l'ensemble des personnes concernées par des traitements de données personnelles puissent être informées sur le type d'informations collectées, l'usage réalisé par la société de ces informations, la durée de conservation de ces données et la possibilité d'en demander la modification voire la suppression. Cette mise en conformité implique en tout premier lieu de réaliser une cartographie ou recensement de l'ensemble des fichiers contenant des informations personnelles tant internes (collaborateurs par exemple), qu'externes (clients, prestataires…), de veiller à assurer la sécurité de ces données et de pouvoir en justifier à tout moment. La société devra faire accepter par l'ensemble des personnes concernées sa politique de traitement des données."
+      },
+      "framework": {
+        "title": "Cadre réglementaire",
+        "body": "Règlement (UE) 2016/679 du Parlement européen et du Conseil du 27 avril 2016 relatif à la protection des personnes physiques à l'égard du traitement des données à caractère personnel et à la libre circulation de ces données, et abrogeant la Directive 95/46/CE (Règlement général sur la protection des données)."
+      },
+      "objectives": {
+        "title": "Objectifs",
+        "body": "La présente politique de traitement des données vise à expliciter et à fixer le cadre applicable à l'ensemble des données personnelles détenues par MANCO.PARIS. Elle distingue le traitement des données internes (collaborateurs notamment) des données externes (clients, prestataires…). La mise en œuvre du RGPD passe concrètement pour la société MANCO.PARIS par :\n\n• La désignation d'un responsable du traitement et du suivi des données personnelles : La personne désignée est Jérôme COIRIER – Il peut être contacté aux coordonnées suivantes : dpo@manco.paris.\n• La mise en place d'un registre de traitement des données personnelles visant à répertorier les données personnelles collectées et ce pour quoi elles sont collectées.\n• La mise en place d'une politique générale de traitement des données et de traitement des cookies disponible sur notre site internet à titre d'information des utilisateurs.\n• L'information au moment de la création d'un compte par un utilisateur de notre politique de traitement des données personnelles et de ses droits ainsi que l'utilisation qui est faite de ses données.\n• L'information de l'ensemble de nos clients et prestataires de notre politique générale de traitement des données personnelles."
+      },
+      "dataCollected": {
+        "title": "Les données collectées",
+        "body": "Les données collectées sont des données relatives à l'identification (nom, prénom, adresse postale, numéro de téléphone, adresse mail, société), à la situation professionnelle, économique ou financière (fonction exercée au sein de la société, catégorisation du client…). Le client est averti sur ses droits au moment de la collecte de ces informations, et tout au long de la durée du contrat."
+      },
+      "dataUse": {
+        "title": "Utilisation de ces données",
+        "body": "MANCO.PARIS procède à la collecte de vos données personnelles uniquement dans le cadre de vos demandes d'informations et de nos échanges commerciaux. Ces données sont utilisées exclusivement par MANCO.PARIS pour vous informer sur ses activités."
+      },
+      "registry": {
+        "title": "Tenue de registre",
+        "body": "Un registre est tenu par la société de gestion sous le contrôle du responsable du traitement et du suivi des données personnelles. Ce registre classe et répertorie l'ensemble des données personnelles collectées par la société."
+      },
+      "rights": {
+        "title": "Information sur vos droits",
+        "body": "Conformément à la nouvelle réglementation, vous bénéficiez :\n\n• Du droit d'accès aux données à caractère personnel qui vous concernent\n• Du droit de rectification de modification ou d'effacement de celles-ci\n• Du droit à une limitation du traitement relatif à ces données personnelles\n• Du droit de s'opposer au traitement (sauf si celui-ci est nécessaire au respect d'une de nos obligations légales et réglementaires)\n• Du droit à la portabilité de ces données\n• Du droit d'introduire une réclamation auprès de la CNIL\n\nL'information sur vos droits est portée à votre connaissance via la mise à jour de notre site internet sur le traitement des données."
+      },
+      "retention": {
+        "title": "Durée de conservation des données personnelles",
+        "body": "Les données personnelles ne peuvent être conservées de façon indéfinie dans les fichiers informatiques. Vos données personnelles seront conservées pendant toute la période de la relation commerciale et supprimées après une durée de trois ans suivant notre dernier échange en l'absence de relations commerciales.\n\nCependant, il existe des cas où vos données pourront être conservées plus longtemps :\n• Pour répondre à des obligations légales, comptables ou fiscales (10 ans)\n• Pour la conservation de preuves pendant les délais de prescription applicable (5 ans)"
+      },
+      "contactDpo": {
+        "title": "Nous contacter",
+        "body": "Vous pouvez adresser toute réclamation sur le traitement de vos données personnelles par courrier électronique en contactant le responsable du traitement et du suivi des données personnelles à l'adresse suivante : dpo@manco.paris, ou par courrier adressé à l'adresse suivante : MANCO.PARIS, 7 rue Roy 75008 PARIS.\n\nEn cas d'insatisfaction quant au traitement de vos données personnelles, vous avez la possibilité d'introduire en France une réclamation auprès de la Commission Nationale de l'Informatique et des Libertés (C.N.I.L) à l'adresse suivante : Service des plaintes, 3 Place de Fontenoy, TSA 80715 – 75334 Paris Cedex 07 – 01 53 73 22 22 – www.cnil.fr/fr/plaintes"
+      }
     },
     "purpose": {
-      "title": "3. Objet du site",
-      "body": "Ce site est purement informatif (non transactionnel). Son contenu est indicatif et modifiable sans préavis. Il ne constitue pas une offre publique ni une sollicitation d'investissement."
+      "title": "Objet du site internet",
+      "body": "Le site Manco Paris est un site à but strictement informatif dont l'objectif est de présenter l'activité de gestion. Toutes les informations disponibles sur le site ont un caractère exclusivement indicatif. Il ne s'agit pas d'un site transactionnel.\n\nToute information peut être modifiée sans préavis par la société. En aucun cas, les informations publiées sur le site ne représentent une offre de produits ou de services pouvant être assimilée à un appel public à l'épargne, ou à une activité de démarchage ou de sollicitation à l'achat ou à la vente ou de tout autre produit de gestion ou d'investissement."
     },
     "content": {
-      "title": "4. Contenu et responsabilités",
-      "body": "MANCO.PARIS s'efforce d'assurer au mieux l'exactitude et la mise à jour des informations diffusées sur ce site. Les liens externes ne sont pas contrôlés par MANCO.PARIS ; responsabilité limitée. Droits d'auteur réservés ; reproduction interdite sans autorisation écrite."
+      "title": "Contenu",
+      "responsibilities": {
+        "title": "Responsabilités",
+        "body": "Manco Paris s'efforce d'assurer au mieux l'exactitude et la mise à jour des informations diffusées sur ce site, et se réserve le droit de corriger, à tout moment et sans préavis, le contenu.\n\nAussi, nous avertissons le visiteur qu'il lui appartient de vérifier l'information par d'autres moyens, y compris en nous contactant. En conséquence, nous déclinons toute responsabilité : pour toute imprécision, inexactitude ou omission portant sur des informations disponibles sur le site ; pour tous dommages résultant d'une intrusion frauduleuse d'un tiers ayant entraîné une modification des informations mises à la disposition sur le site.\n\nLes sites extérieurs à Manco.paris ayant un lien hypertexte avec le présent site ne sont pas sous contrôle de celle-ci qui décline par conséquent toute responsabilité quant à leur contenu. Ces liens ne constituent, en aucun cas, une approbation ou un partenariat entre la société et ces sites, ceux-là étant soumis à leurs propres conditions d'utilisation et politiques de protection de la vie privée.\n\nToute diffusion ou référence à des documents externes mentionne au moins :\n— la source des informations et la période à laquelle se rapportent les informations\n— s'il s'agit d'un extrait ou de la totalité d'un document\n— l'origine, la date et les références de ce document"
+      },
+      "hyperlinks": {
+        "title": "Liens hypertextes",
+        "body": "L'établissement de liens hypertextes par toute personne en direction du site, à l'insu de Manco Paris, n'est pas autorisé. Avant toute mise en place d'un ou de tels liens, il vous appartient d'en faire la demande auprès de Manco Paris. Votre demande devra être adressée à la société au siège social ou en remplissant notre formulaire de contact."
+      },
+      "copyright": {
+        "title": "Droit d'auteur et propriété intellectuelle",
+        "body": "L'utilisation de tout document provenant du site https://manco-paris.com/ n'est autorisée qu'à titre d'information pour un usage privé et personnel. Toutes réutilisation, reproduction, retranscription, modification qui pourraient être effectuées à d'autres fins sont expressément interdites, à défaut d'une demande d'autorisation préalable faite par écrit à la société.\n\nLe site ainsi que tous les éléments le composant et notamment : les textes, les images fixes ou animées, les compositions sonores, la charte graphique, les bases de données, etc… sont la propriété exclusive de MANCO.PARIS et sont protégés au titre des dispositions du code de la propriété intellectuelle.\n\nLes marques, noms commerciaux et logos figurant sur ce site sont déposés. Leur reproduction totale ou partielle, effectuée à partir des éléments du site, est prohibée."
+      },
+      "copyrightUsage": {
+        "title": "Copyright",
+        "body": "L'utilisateur du site web de Manco Paris s'engage pour sa part à respecter les règles de propriété intellectuelle des divers contenus proposés sur le site c'est-à-dire :\n\n• À ne pas reproduire, résumer, modifier, altérer ou rediffuser, sans autorisation préalable de la société, quelque article, titre, application, logiciel, logo, marque, information, illustration ou photographie pour un usage autre que strictement privé, ce qui exclut toute reproduction à des fins professionnelles ou de diffusion en nombre.\n• À ne pas recopier tout ou partie du site sur un autre site ou un réseau interne d'entreprise."
+      }
     },
     "access": {
-      "title": "5. Accès au site",
-      "body": "MANCO.PARIS se réserve le droit de modifier, résilier ou suspendre l'accès au site sans préavis."
-    },
-    "ip": {
-      "title": "6. Propriété intellectuelle",
-      "body": "L'ensemble du contenu du site (textes, images, bases de données, graphiques) est la propriété exclusive de MANCO.PARIS, protégé par le droit de la propriété intellectuelle français."
-    },
-    "contact": {
-      "title": "7. Coordonnées de contact",
-      "body": "Email commercial : sales@manco.paris\nTéléphone : +33 (0)1 88 40 45 76\nBureaux : 25 rue de Ponthieu, 75 008 Paris\nSiège social : 7 rue Roy, 75 008 Paris"
-    },
-    "amf": {
-      "title": "8. Informations réglementaires",
-      "body": "Société de gestion agréée AMF sous le n° GP-21000001 (20 janvier 2021)."
-    },
-    "shareholders": {
-      "title": "9. Actionnaires",
-      "body": "Banque Delubac & Cie\nHolding BCM (avec BeeAM et Cid Consulting)"
+      "title": "Accès au site",
+      "body": "Manco Paris se réserve le droit de modifier, de résilier, de suspendre ou d'interrompre à tout moment, pour toutes raisons et à sa seule discrétion, l'accès à tout ou partie du site, y compris notamment pour le contenu, les fonctionnalités ou les heures de disponibilité sans avis préalable."
     }
   },
   "regulatory": {

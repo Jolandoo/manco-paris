@@ -26,7 +26,7 @@ export function QuestionsGrid({ onOpen }: QuestionsGridProps) {
             transition: { staggerChildren: shouldReduce ? 0 : 0.05 },
           },
         }}
-        className="max-w-container mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4"
+        className="max-w-container mx-auto flex flex-wrap justify-center gap-4"
       >
         {questions.map((q) => (
           <motion.div
@@ -46,6 +46,7 @@ export function QuestionsGrid({ onOpen }: QuestionsGridProps) {
                     },
                   }
             }
+          className="w-full md:w-[calc(50%-0.5rem)] lg:w-[calc(33.333%-0.6875rem)]"
           >
             <GlassCard
               onClick={() => onOpen(q)}

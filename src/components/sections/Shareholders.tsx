@@ -7,7 +7,7 @@ export function Shareholders() {
   const t = useTranslations("shareholders");
 
   return (
-    <section className="py-16 max-md:py-10 px-12 max-md:px-6 bg-bg-1 border-b border-border">
+    <section id="institutional" className="py-16 max-md:py-10 px-12 max-md:px-6 bg-bg-1 border-b border-border scroll-mt-20">
       <FadeIn className="max-w-container mx-auto flex items-center gap-16 max-md:gap-4 flex-wrap">
         <div className="font-mono text-[11px] text-fg-faint tracking-[0.18em]">
           {t("label")} —

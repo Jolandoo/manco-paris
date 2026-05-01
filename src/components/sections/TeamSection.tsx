@@ -15,7 +15,7 @@ export function TeamSection() {
   return (
     <section
       id="team"
-      className="py-[120px] max-md:py-16 px-12 max-md:px-6 bg-bg-1 border-b border-border"
+      className="py-[120px] max-md:py-16 px-12 max-md:px-6 bg-bg-1 border-b border-border scroll-mt-20"
     >
       <div className="max-w-container mx-auto">
         <FadeIn>

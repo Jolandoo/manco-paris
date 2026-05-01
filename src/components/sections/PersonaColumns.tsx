@@ -12,7 +12,7 @@ export function PersonaColumns() {
   const shouldReduce = useReducedMotion();
 
   return (
-    <section className="py-[120px] max-md:py-16 px-12 max-md:px-6 bg-bg-2 border-b border-border">
+    <section id="incubation" className="py-[120px] max-md:py-16 px-12 max-md:px-6 bg-bg-2 border-b border-border scroll-mt-20">
       <div className="max-w-container mx-auto">
         <FadeIn>
           <Eyebrow>{t("eyebrow")}</Eyebrow>

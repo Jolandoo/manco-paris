@@ -33,9 +33,13 @@ export function Footer() {
               {t("sitemap")}
             </div>
             {NAV_KEYS.map((key) => (
-              <div key={key} className="text-[13px] mb-2">
+              <Link
+                key={key}
+                href={key === "publications" ? "/publications" : `/#${key}`}
+                className="block text-[13px] mb-2 hover:text-fg transition-colors"
+              >
                 {nav(key)}
-              </div>
+              </Link>
             ))}
           </div>
 

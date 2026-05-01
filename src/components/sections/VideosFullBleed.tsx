@@ -12,7 +12,7 @@ export function VideosFullBleed() {
   const shouldReduce = useReducedMotion();
 
   return (
-    <section className="py-[120px] max-md:py-16 px-12 max-md:px-6 bg-bg-0 border-b border-border">
+    <section id="familyOffice" className="py-[120px] max-md:py-16 px-12 max-md:px-6 bg-bg-0 border-b border-border scroll-mt-20">
       <motion.div
         initial="hidden"
         whileInView="visible"

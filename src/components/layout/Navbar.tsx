@@ -50,13 +50,13 @@ export function Navbar() {
       {/* Desktop nav */}
       <div className="hidden lg:flex items-center gap-8">
         {NAV_KEYS.map((key) => (
-          <a
+          <Link
             key={key}
-            href={`#${key}`}
+            href={key === "publications" ? "/publications" : `/#${key}`}
             className="font-sans text-[13px] font-medium text-fg-dim hover:text-fg transition-colors duration-[160ms]"
           >
             {t(key)}
-          </a>
+          </Link>
         ))}
 
         {/* Lang switch */}
@@ -113,14 +113,14 @@ export function Navbar() {
       {menuOpen && (
         <div className="lg:hidden absolute top-full left-0 right-0 bg-bg-0/95 backdrop-blur-xl border-b border-border p-6 flex flex-col gap-5">
           {NAV_KEYS.map((key) => (
-            <a
+            <Link
               key={key}
-              href={`#${key}`}
+              href={key === "publications" ? "/publications" : `/#${key}`}
               onClick={() => setMenuOpen(false)}
               className="font-sans text-base font-medium text-fg-dim hover:text-fg transition-colors"
             >
               {t(key)}
-            </a>
+            </Link>
           ))}
           <button
             onClick={() => switchLocale(locale === "fr" ? "en" : "fr")}

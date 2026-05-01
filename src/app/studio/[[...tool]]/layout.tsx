@@ -1,0 +1,15 @@
+export const metadata = {
+  title: "MANCO PARIS — Studio",
+};
+
+export default function StudioLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
+  return (
+    <html lang="fr">
+      <body style={{ margin: 0 }}>{children}</body>
+    </html>
+  );
+}

@@ -2,11 +2,12 @@
 
 import { useLocale, useTranslations } from "next-intl";
 import { motion, useReducedMotion } from "framer-motion";
-import { personas } from "@/data/personas";
+import { personas as staticPersonas, type Persona } from "@/data/personas";
 import { Eyebrow } from "@/components/ui/Eyebrow";
 import { FadeIn } from "@/components/ui/FadeIn";
 
-export function PersonaColumns() {
+export function PersonaColumns({ personas }: { personas?: Persona[] }) {
+  const data = personas && personas.length > 0 ? personas : staticPersonas;
   const t = useTranslations("personas");
   const locale = useLocale();
   const shouldReduce = useReducedMotion();
@@ -37,7 +38,7 @@ export function PersonaColumns() {
           }}
           className="mt-14 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4"
         >
-          {personas.map((p) => (
+          {data.map((p) => (
             <motion.div
               key={p.num}
               variants={

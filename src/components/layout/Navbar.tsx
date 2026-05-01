@@ -24,6 +24,16 @@ export function Navbar() {
   const [scrolled, setScrolled] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
 
+  const handleAnchorClick = (e: React.MouseEvent, hash: string) => {
+    const id = hash.replace("#", "");
+    const el = document.getElementById(id);
+    if (el) {
+      e.preventDefault();
+      el.scrollIntoView({ behavior: "smooth" });
+      history.replaceState(null, "", hash);
+    }
+  };
+
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 24);
     window.addEventListener("scroll", onScroll, { passive: true });
@@ -49,15 +59,19 @@ export function Navbar() {
 
       {/* Desktop nav */}
       <div className="hidden lg:flex items-center gap-8">
-        {NAV_KEYS.map((key) => (
-          <Link
-            key={key}
-            href={key === "publications" ? "/publications" : `/#${key}`}
-            className="font-sans text-[13px] font-medium text-white/70 hover:text-white transition-colors duration-[160ms]"
-          >
-            {t(key)}
-          </Link>
-        ))}
+        {NAV_KEYS.map((key) => {
+          const isAnchor = key !== "publications";
+          return (
+            <Link
+              key={key}
+              href={isAnchor ? `/#${key}` : "/publications"}
+              onClick={isAnchor ? (e: React.MouseEvent) => handleAnchorClick(e, `#${key}`) : undefined}
+              className="font-sans text-[13px] font-medium text-white/70 hover:text-white transition-colors duration-[160ms]"
+            >
+              {t(key)}
+            </Link>
+          );
+        })}
 
         {/* Lang switch */}
         <button
@@ -112,16 +126,22 @@ export function Navbar() {
       {/* Mobile menu */}
       {menuOpen && (
         <div className="lg:hidden absolute top-full left-0 right-0 bg-bg-0/95 backdrop-blur-xl border-b border-white/10 p-6 flex flex-col gap-5">
-          {NAV_KEYS.map((key) => (
-            <Link
-              key={key}
-              href={key === "publications" ? "/publications" : `/#${key}`}
-              onClick={() => setMenuOpen(false)}
-              className="font-sans text-base font-medium text-white/70 hover:text-white transition-colors"
-            >
-              {t(key)}
-            </Link>
-          ))}
+          {NAV_KEYS.map((key) => {
+            const isAnchor = key !== "publications";
+            return (
+              <Link
+                key={key}
+                href={isAnchor ? `/#${key}` : "/publications"}
+                onClick={(e: React.MouseEvent) => {
+                  setMenuOpen(false);
+                  if (isAnchor) handleAnchorClick(e, `#${key}`);
+                }}
+                className="font-sans text-base font-medium text-white/70 hover:text-white transition-colors"
+              >
+                {t(key)}
+              </Link>
+            );
+          })}
           <button
             onClick={() => switchLocale(locale === "fr" ? "en" : "fr")}
             className="flex gap-0.5 p-[3px] border border-white/20 rounded-full font-mono text-[11px] self-start cursor-pointer hover:border-white/40 transition-colors"

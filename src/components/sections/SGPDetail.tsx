@@ -2,7 +2,7 @@
 
 import { useLocale, useTranslations } from "next-intl";
 import { motion, useReducedMotion } from "framer-motion";
-import { services } from "@/data/services";
+import { services as staticServices, type Service } from "@/data/services";
 import { Eyebrow } from "@/components/ui/Eyebrow";
 import { GlassCard } from "@/components/ui/GlassCard";
 import { FadeIn } from "@/components/ui/FadeIn";
@@ -16,7 +16,8 @@ const testimonials = [
   { name: "Adagio", duration: "02:22" },
 ];
 
-export function SGPDetail() {
+export function SGPDetail({ services }: { services?: Service[] }) {
+  const data = services && services.length > 0 ? services : staticServices;
   const t = useTranslations("sgp");
   const locale = useLocale();
   const shouldReduce = useReducedMotion();
@@ -44,7 +45,7 @@ export function SGPDetail() {
           }}
           className="mt-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4"
         >
-          {services.map((s) => (
+          {data.map((s) => (
             <motion.div
               key={s.glyph}
               variants={

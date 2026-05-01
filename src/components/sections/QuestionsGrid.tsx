@@ -2,14 +2,16 @@
 
 import { useLocale, useTranslations } from "next-intl";
 import { motion, useReducedMotion } from "framer-motion";
-import { questions, type Question } from "@/data/questions";
+import { questions as staticQuestions, type Question } from "@/data/questions";
 import { GlassCard } from "@/components/ui/GlassCard";
 
 interface QuestionsGridProps {
   onOpen: (q: Question) => void;
+  questions?: Question[];
 }
 
-export function QuestionsGrid({ onOpen }: QuestionsGridProps) {
+export function QuestionsGrid({ onOpen, questions }: QuestionsGridProps) {
+  const data = questions && questions.length > 0 ? questions : staticQuestions;
   const t = useTranslations("questions");
   const locale = useLocale();
   const shouldReduce = useReducedMotion();
@@ -28,7 +30,7 @@ export function QuestionsGrid({ onOpen }: QuestionsGridProps) {
         }}
         className="max-w-container mx-auto flex flex-wrap justify-center gap-4"
       >
-        {questions.map((q) => (
+        {data.map((q) => (
           <motion.div
             key={q.id}
             variants={

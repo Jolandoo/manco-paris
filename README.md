@@ -2,13 +2,15 @@
 
 Full redesign and migration of [MANCO.PARIS](https://manco.paris), a French AMF-regulated asset management company, from WordPress/Elementor to a modern JAMstack architecture.
 
-**Built by [Jolann Madec](https://github.com/Jolann) — Fullstack Engineer**
+**Built by [Jolann Madec](https://github.com/Jolann) — Fullstack Software Engineer**
 
-![Next.js](https://img.shields.io/badge/Next.js_15-000?logo=nextdotjs&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS_4-06B6D4?logo=tailwindcss&logoColor=white)
-![Sanity](https://img.shields.io/badge/Sanity_CMS-F03E2F?logo=sanity&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-000?logo=vercel&logoColor=white)
+<p align="center">
+  <img src="https://img.shields.io/badge/Next.js_15-000?logo=nextdotjs&logoColor=white" alt="Next.js" />
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/Tailwind_CSS_4-06B6D4?logo=tailwindcss&logoColor=white" alt="Tailwind CSS" />
+  <img src="https://img.shields.io/badge/Sanity_CMS-F03E2F?logo=sanity&logoColor=white" alt="Sanity" />
+  <img src="https://img.shields.io/badge/Vercel-000?logo=vercel&logoColor=white" alt="Vercel" />
+</p>
 
 ---
 

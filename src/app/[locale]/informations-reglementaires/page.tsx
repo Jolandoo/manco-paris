@@ -30,22 +30,25 @@ export default async function InformationsReglementairesPage({
           <p>{t("vote.body")}</p>
 
           <h2>{t("esg.title")}</h2>
-          <p>{t("esg.body")}</p>
+          <p className="whitespace-pre-line">{t("esg.body")}</p>
 
           <h2>{t("sfdr.title")}</h2>
-          <p>{t("sfdr.body")}</p>
+          <p className="whitespace-pre-line">{t("sfdr.body")}</p>
+
+          <h2>{t("pai.title")}</h2>
+          <p>{t("pai.body")}</p>
 
           <h2>{t("remuneration.title")}</h2>
           <p>{t("remuneration.body")}</p>
 
           <h2>{t("claims.title")}</h2>
-          <p>{t("claims.body")}</p>
+          <p className="whitespace-pre-line">{t("claims.body")}</p>
 
           <h2>{t("conflicts.title")}</h2>
-          <p>{t("conflicts.body")}</p>
+          <p className="whitespace-pre-line">{t("conflicts.body")}</p>
 
           <h2>{t("bestSelection.title")}</h2>
-          <p>{t("bestSelection.body")}</p>
+          <p className="whitespace-pre-line">{t("bestSelection.body")}</p>
         </div>
       </div>
     </article>

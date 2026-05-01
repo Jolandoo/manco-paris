@@ -1,0 +1,73 @@
+import { useTranslations } from "next-intl";
+import { Logo } from "@/components/ui/Logo";
+
+const NAV_KEYS = [
+  "team",
+  "incubation",
+  "assetManagers",
+  "familyOffice",
+  "institutional",
+  "publications",
+] as const;
+
+export function Footer() {
+  const t = useTranslations("footer");
+  const nav = useTranslations("nav");
+
+  return (
+    <footer className="bg-bg-0 px-12 max-md:px-6 pt-16 max-md:pt-10 pb-8 text-fg-dim font-sans">
+      <div className="max-w-container mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-[2fr_1fr_1fr_1fr] gap-8 pb-12 border-b border-border">
+          {/* Col 1 — Brand */}
+          <div>
+            <Logo size={22} />
+            <p className="text-[13px] leading-relaxed mt-4 max-w-[320px]">
+              {t("tagline")}
+            </p>
+          </div>
+
+          {/* Col 2 — Sitemap */}
+          <div>
+            <div className="font-mono text-[10px] text-fg-faint tracking-[0.16em] mb-3.5">
+              {t("sitemap")}
+            </div>
+            {NAV_KEYS.map((key) => (
+              <div key={key} className="text-[13px] mb-2">
+                {nav(key)}
+              </div>
+            ))}
+          </div>
+
+          {/* Col 3 — Contact */}
+          <div>
+            <div className="font-mono text-[10px] text-fg-faint tracking-[0.16em] mb-3.5">
+              {t("contact")}
+            </div>
+            <div className="text-[13px] mb-2">{t("email")}</div>
+            <div className="text-[13px] mb-2">{t("phone")}</div>
+            <div className="text-[13px] mb-2 whitespace-pre-line">
+              {t("address")}
+            </div>
+          </div>
+
+          {/* Col 4 — Social */}
+          <div>
+            <div className="font-mono text-[10px] text-fg-faint tracking-[0.16em] mb-3.5">
+              {t("follow")}
+            </div>
+            <div className="text-[13px] mb-2">↗ {t("linkedin")}</div>
+            <div className="text-[13px] mb-2">↗ {t("twitter")}</div>
+          </div>
+        </div>
+
+        {/* Bottom bar */}
+        <div className="flex flex-wrap justify-between items-center gap-4 max-md:flex-col max-md:items-start max-md:gap-2 pt-6 font-mono text-[11px] text-fg-faint tracking-[0.12em]">
+          <span>{t("amf")}</span>
+          <span>
+            {t("legal")} · {t("privacy")} · {t("cookies")}
+          </span>
+        </div>
+      </div>
+    </footer>
+  );
+}

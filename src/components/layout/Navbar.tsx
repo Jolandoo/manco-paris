@@ -3,6 +3,7 @@
 import { useState, useEffect } from "react";
 import { useLocale, useTranslations } from "next-intl";
 import { useRouter, usePathname } from "@/i18n/navigation";
+import { Link } from "@/i18n/navigation";
 import { Logo } from "@/components/ui/Logo";
 import { cn } from "@/lib/utils";
 
@@ -42,7 +43,9 @@ export function Navbar() {
           : "py-[22px] px-12 max-md:px-6 bg-transparent border-b border-transparent",
       )}
     >
-      <Logo size={20} />
+      <Link href="/" className="hover:opacity-80 transition-opacity">
+        <Logo size={20} />
+      </Link>
 
       {/* Desktop nav */}
       <div className="hidden lg:flex items-center gap-8">
@@ -57,30 +60,27 @@ export function Navbar() {
         ))}
 
         {/* Lang switch */}
-        <div className="flex gap-0.5 p-[3px] border border-border rounded-full font-mono text-[11px]">
-          <button
-            onClick={() => switchLocale("fr")}
+        <button
+          onClick={() => switchLocale(locale === "fr" ? "en" : "fr")}
+          className="flex gap-0.5 p-[3px] border border-border rounded-full font-mono text-[11px] cursor-pointer hover:border-border-strong transition-colors"
+        >
+          <span
             className={cn(
               "px-2.5 py-1 rounded-full transition-colors",
-              locale === "fr"
-                ? "bg-fg text-bg-0"
-                : "text-fg-dim hover:text-fg",
+              locale === "fr" ? "bg-fg text-bg-0" : "text-fg-dim",
             )}
           >
             FR
-          </button>
-          <button
-            onClick={() => switchLocale("en")}
+          </span>
+          <span
             className={cn(
               "px-2.5 py-1 rounded-full transition-colors",
-              locale === "en"
-                ? "bg-fg text-bg-0"
-                : "text-fg-dim hover:text-fg",
+              locale === "en" ? "bg-fg text-bg-0" : "text-fg-dim",
             )}
           >
             EN
-          </button>
-        </div>
+          </span>
+        </button>
       </div>
 
       {/* Mobile burger */}
@@ -122,26 +122,27 @@ export function Navbar() {
               {t(key)}
             </a>
           ))}
-          <div className="flex gap-0.5 p-[3px] border border-border rounded-full font-mono text-[11px] self-start">
-            <button
-              onClick={() => switchLocale("fr")}
+          <button
+            onClick={() => switchLocale(locale === "fr" ? "en" : "fr")}
+            className="flex gap-0.5 p-[3px] border border-border rounded-full font-mono text-[11px] self-start cursor-pointer hover:border-border-strong transition-colors"
+          >
+            <span
               className={cn(
-                "px-2.5 py-1 rounded-full",
+                "px-2.5 py-1 rounded-full transition-colors",
                 locale === "fr" ? "bg-fg text-bg-0" : "text-fg-dim",
               )}
             >
               FR
-            </button>
-            <button
-              onClick={() => switchLocale("en")}
+            </span>
+            <span
               className={cn(
-                "px-2.5 py-1 rounded-full",
+                "px-2.5 py-1 rounded-full transition-colors",
                 locale === "en" ? "bg-fg text-bg-0" : "text-fg-dim",
               )}
             >
               EN
-            </button>
-          </div>
+            </span>
+          </button>
         </div>
       )}
     </nav>

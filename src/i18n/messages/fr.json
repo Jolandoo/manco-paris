@@ -1,0 +1,127 @@
+{
+  "meta": {
+    "title": "MANCO PARIS — Société de gestion d'actifs financiers",
+    "description": "Solutions opérationnelles, réglementaires et stratégiques pour fonds, CGP et institutionnels. Agréée AMF."
+  },
+  "nav": {
+    "team": "Équipe",
+    "incubation": "Incubation",
+    "assetManagers": "Sociétés de gestion",
+    "familyOffice": "Family Office",
+    "institutional": "Institutionnels",
+    "publications": "Publications"
+  },
+  "hero": {
+    "eyebrow": "SOCIÉTÉ DE GESTION · PARIS · AGRÉÉE AMF",
+    "title": "Nous prenons en charge toutes les activités liées au <accent>fonctionnement</accent> quotidien de la gestion de fonds.",
+    "ctaPrimary": "Contactez-nous",
+    "ctaSecondary": "Nos services",
+    "stats": {
+      "amf": { "big": "Agréée AMF", "sub": "depuis 2021", "foot": "GP-21000001" },
+      "funds": { "big": "12+", "sub": "fonds gérés", "foot": "sous notre agrément" },
+      "aum": { "big": "1.2 Mds €", "sub": "sous gestion", "foot": "au 31/03/2026" }
+    }
+  },
+  "questions": {
+    "sectionTitle": "Vos questions",
+    "openPanel": "ouvrir le panel"
+  },
+  "personas": {
+    "eyebrow": "02 / VOTRE PROFIL",
+    "title": "Qui <accent>êtes-vous</accent> ?",
+    "details": "détails"
+  },
+  "sgp": {
+    "eyebrow": "DÉTAIL · SOCIÉTÉ DE GESTION",
+    "title": "Quatre piliers opérationnels.",
+    "testimonials": "TÉMOIGNAGES"
+  },
+  "team": {
+    "eyebrow": "06 / L'ÉQUIPE",
+    "title": "Les visages derrière <accent>MANCO</accent>.",
+    "contact": "Contacter",
+    "collapse": "réduire"
+  },
+  "shareholders": {
+    "label": "NOS ACTIONNAIRES"
+  },
+  "footer": {
+    "tagline": "Société de gestion d'actifs financiers — solutions opérationnelles, réglementaires et stratégiques pour fonds, CGP et institutionnels.",
+    "sitemap": "PLAN DU SITE",
+    "contact": "CONTACT",
+    "follow": "SUIVEZ-NOUS",
+    "email": "sales@manco.paris",
+    "phone": "+33 1 88 40 45 76",
+    "address": "25 rue Ponthieu\n75008 Paris",
+    "linkedin": "LinkedIn",
+    "twitter": "Twitter / X",
+    "amf": "© 2026 MANCO PARIS · SOCIÉTÉ AGRÉÉE AMF N° GP-21000001",
+    "legal": "MENTIONS LÉGALES",
+    "privacy": "POLITIQUE DE CONFIDENTIALITÉ",
+    "cookies": "COOKIES"
+  },
+  "legal": {
+    "metaTitle": "Mentions légales — MANCO PARIS",
+    "title": "Mentions légales",
+    "editor": {
+      "title": "Éditeur du site",
+      "body": "MANCO PARIS — Société de gestion de portefeuille agréée par l'Autorité des Marchés Financiers sous le n° GP-21000001. SAS au capital de XXX XXX €. RCS Paris XXX XXX XXX. Siège social : 12 rue Vivienne, 75002 Paris. Directeur de la publication : [Nom du dirigeant]."
+    },
+    "hosting": {
+      "title": "Hébergement",
+      "body": "Ce site est hébergé par Vercel Inc., 340 S Lemon Ave #4133, Walnut, CA 91789, États-Unis."
+    },
+    "dpo": {
+      "title": "Protection des données",
+      "body": "Conformément au Règlement Général sur la Protection des Données (RGPD) et à la loi Informatique et Libertés, vous disposez d'un droit d'accès, de rectification, de suppression et d'opposition au traitement de vos données personnelles. Pour exercer ces droits, contactez-nous à dpo@manco.paris."
+    },
+    "cookies": {
+      "title": "Cookies",
+      "body": "Ce site utilise des cookies strictement nécessaires à son fonctionnement. Des cookies de mesure d'audience peuvent être utilisés avec votre consentement. Vous pouvez gérer vos préférences via le widget hu-manity.co en bas à gauche de votre écran."
+    }
+  },
+  "regulatory": {
+    "metaTitle": "Informations réglementaires — MANCO PARIS",
+    "title": "Informations réglementaires",
+    "esg": {
+      "title": "Politique ESG / ISR",
+      "body": "MANCO PARIS intègre les critères environnementaux, sociaux et de gouvernance (ESG) dans ses processus de gestion conformément aux exigences réglementaires applicables. Notre politique ESG est disponible sur demande."
+    },
+    "sfdr": {
+      "title": "SFDR — Sustainable Finance Disclosure Regulation",
+      "body": "En application du règlement (UE) 2019/2088, MANCO PARIS publie les informations relatives à la prise en compte des risques de durabilité dans ses décisions d'investissement et dans sa politique de rémunération."
+    },
+    "vote": {
+      "title": "Politique de vote",
+      "body": "MANCO PARIS exerce les droits de vote attachés aux titres détenus par les fonds qu'elle gère, conformément à sa politique de vote adoptée par le Directoire. Le rapport annuel d'exercice des droits de vote est disponible sur demande."
+    },
+    "remuneration": {
+      "title": "Politique de rémunération",
+      "body": "La politique de rémunération de MANCO PARIS est conforme aux exigences de la directive AIFM et de la directive UCITS V. Elle vise à promouvoir une gestion saine et efficace des risques. Les détails sont disponibles sur demande."
+    }
+  },
+  "publications": {
+    "metaTitle": "Publications — MANCO PARIS",
+    "eyebrow": "PUBLICATIONS",
+    "title": "Nos publications",
+    "filter": {
+      "all": "Tout",
+      "article": "Articles",
+      "interview": "Interviews",
+      "webinaire": "Webinaires"
+    },
+    "empty": "Aucune publication pour le moment."
+  },
+  "sidePanel": {
+    "interlocutor": "VOTRE INTERLOCUTEUR",
+    "formTitle": "OU LAISSEZ-NOUS UN MESSAGE",
+    "name": "Nom complet",
+    "email": "Email professionnel",
+    "company": "Société",
+    "message": "Votre message",
+    "send": "Envoyer",
+    "sending": "Envoi…",
+    "success": "Message envoyé. Nous revenons vers vous rapidement.",
+    "error": "Erreur lors de l'envoi. Veuillez réessayer."
+  }
+}

@@ -1,0 +1,127 @@
+{
+  "meta": {
+    "title": "MANCO PARIS — Asset Management Company",
+    "description": "Operational, regulatory and strategic solutions for funds, financial advisors and institutional investors. AMF-approved."
+  },
+  "nav": {
+    "team": "Team",
+    "incubation": "Incubation",
+    "assetManagers": "Asset Managers",
+    "familyOffice": "Family Office",
+    "institutional": "Institutional",
+    "publications": "Publications"
+  },
+  "hero": {
+    "eyebrow": "ASSET MANAGEMENT · PARIS · AMF-APPROVED",
+    "title": "We handle all activities related to the day-to-day <accent>operations</accent> of fund management.",
+    "ctaPrimary": "Contact us",
+    "ctaSecondary": "Our services",
+    "stats": {
+      "amf": { "big": "AMF-Approved", "sub": "since 2021", "foot": "GP-21000001" },
+      "funds": { "big": "12+", "sub": "funds managed", "foot": "under our license" },
+      "aum": { "big": "€1.2 Bn", "sub": "under management", "foot": "as of 31/03/2026" }
+    }
+  },
+  "questions": {
+    "sectionTitle": "Your questions",
+    "openPanel": "open panel"
+  },
+  "personas": {
+    "eyebrow": "02 / YOUR PROFILE",
+    "title": "Who <accent>are you</accent>?",
+    "details": "details"
+  },
+  "sgp": {
+    "eyebrow": "DETAIL · ASSET MANAGERS",
+    "title": "Four operational pillars.",
+    "testimonials": "TESTIMONIALS"
+  },
+  "team": {
+    "eyebrow": "06 / THE TEAM",
+    "title": "The faces behind <accent>MANCO</accent>.",
+    "contact": "Contact",
+    "collapse": "collapse"
+  },
+  "shareholders": {
+    "label": "OUR SHAREHOLDERS"
+  },
+  "footer": {
+    "tagline": "Asset management company — operational, regulatory and strategic solutions for funds, financial advisors and institutional investors.",
+    "sitemap": "SITEMAP",
+    "contact": "CONTACT",
+    "follow": "FOLLOW US",
+    "email": "sales@manco.paris",
+    "phone": "+33 1 88 40 45 76",
+    "address": "25 rue Ponthieu\n75008 Paris",
+    "linkedin": "LinkedIn",
+    "twitter": "Twitter / X",
+    "amf": "© 2026 MANCO PARIS · AMF-APPROVED COMPANY N° GP-21000001",
+    "legal": "LEGAL NOTICE",
+    "privacy": "PRIVACY POLICY",
+    "cookies": "COOKIES"
+  },
+  "legal": {
+    "metaTitle": "Legal Notice — MANCO PARIS",
+    "title": "Legal Notice",
+    "editor": {
+      "title": "Website Publisher",
+      "body": "MANCO PARIS — Portfolio management company approved by the Autorité des Marchés Financiers under n° GP-21000001. SAS with capital of €XXX,XXX. Paris Trade Register XXX XXX XXX. Registered office: 12 rue Vivienne, 75002 Paris, France. Publication Director: [Name]."
+    },
+    "hosting": {
+      "title": "Hosting",
+      "body": "This website is hosted by Vercel Inc., 340 S Lemon Ave #4133, Walnut, CA 91789, United States."
+    },
+    "dpo": {
+      "title": "Data Protection",
+      "body": "In accordance with the General Data Protection Regulation (GDPR), you have the right to access, rectify, delete and oppose the processing of your personal data. To exercise these rights, contact us at dpo@manco.paris."
+    },
+    "cookies": {
+      "title": "Cookies",
+      "body": "This website uses cookies strictly necessary for its operation. Audience measurement cookies may be used with your consent. You can manage your preferences via the hu-manity.co widget at the bottom left of your screen."
+    }
+  },
+  "regulatory": {
+    "metaTitle": "Regulatory Information — MANCO PARIS",
+    "title": "Regulatory Information",
+    "esg": {
+      "title": "ESG / SRI Policy",
+      "body": "MANCO PARIS integrates environmental, social and governance (ESG) criteria into its management processes in accordance with applicable regulatory requirements. Our ESG policy is available upon request."
+    },
+    "sfdr": {
+      "title": "SFDR — Sustainable Finance Disclosure Regulation",
+      "body": "In application of Regulation (EU) 2019/2088, MANCO PARIS publishes information relating to the consideration of sustainability risks in its investment decisions and remuneration policy."
+    },
+    "vote": {
+      "title": "Voting Policy",
+      "body": "MANCO PARIS exercises voting rights attached to securities held by the funds it manages, in accordance with its voting policy adopted by the Board. The annual voting rights report is available upon request."
+    },
+    "remuneration": {
+      "title": "Remuneration Policy",
+      "body": "MANCO PARIS remuneration policy complies with the requirements of the AIFM Directive and UCITS V Directive. It aims to promote sound and effective risk management. Details are available upon request."
+    }
+  },
+  "publications": {
+    "metaTitle": "Publications — MANCO PARIS",
+    "eyebrow": "PUBLICATIONS",
+    "title": "Our publications",
+    "filter": {
+      "all": "All",
+      "article": "Articles",
+      "interview": "Interviews",
+      "webinaire": "Webinars"
+    },
+    "empty": "No publications yet."
+  },
+  "sidePanel": {
+    "interlocutor": "YOUR CONTACT PERSON",
+    "formTitle": "OR LEAVE US A MESSAGE",
+    "name": "Full name",
+    "email": "Professional email",
+    "company": "Company",
+    "message": "Your message",
+    "send": "Send",
+    "sending": "Sending…",
+    "success": "Message sent. We'll get back to you shortly.",
+    "error": "Failed to send. Please try again."
+  }
+}

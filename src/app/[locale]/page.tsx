@@ -6,7 +6,6 @@ import { SGPDetail } from "@/components/sections/SGPDetail";
 import { VideosFullBleed } from "@/components/sections/VideosFullBleed";
 import { TeamSection } from "@/components/sections/TeamSection";
 import { Shareholders } from "@/components/sections/Shareholders";
-import { CookieBanner } from "@/components/integrations/CookieBanner";
 import { CrispChat } from "@/components/integrations/CrispChat";
 
 export default async function HomePage({
@@ -26,7 +25,6 @@ export default async function HomePage({
       <VideosFullBleed />
       <TeamSection />
       <Shareholders />
-      <CookieBanner />
       <CrispChat />
     </>
   );

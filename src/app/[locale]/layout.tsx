@@ -6,6 +6,7 @@ import localFont from "next/font/local";
 import { routing } from "@/i18n/routing";
 import { Navbar } from "@/components/layout/Navbar";
 import { Footer } from "@/components/layout/Footer";
+import { CookieBanner } from "@/components/integrations/CookieBanner";
 
 const clashDisplay = localFont({
   src: "../../../public/fonts/ClashDisplay-Variable.woff2",
@@ -81,6 +82,7 @@ export default async function LocaleLayout({
           <Navbar />
           <main>{children}</main>
           <Footer />
+          <CookieBanner />
         </NextIntlClientProvider>
       </body>
     </html>

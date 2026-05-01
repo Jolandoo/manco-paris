@@ -63,46 +63,46 @@
     "metaTitle": "Legal Notice — MANCO PARIS",
     "title": "Legal Notice",
     "editor": {
-      "title": "Website Publisher",
-      "body": "This website is published by MANCO.PARIS, SAS, Paris Trade Register number 889423612, represented by Jérôme Coirier.\n\nPublication Director: Jérôme Coirier\nEmail: compliance@manco.paris\nPhone: +33 (0)1 88 40 45 76\nHost: OVH, 2 rue Kellermann, 59100 Roubaix / 1007\n\nThe official language of this website is French. It is subject to French law and the jurisdiction of French courts."
+      "title": "Legal Mentions information",
+      "body": "MANCO.PARIS edits this website, represented by Jérôme Coirier, a Simplified Joint-stock company (SAS) with a capital amount of 712 504 euros, RCS Paris (French Trade Court) with registration number 889423612.\n\nPublication director: Jérôme Coirier\nMail address: compliance@manco.paris\nPhone Number: +33 (0)1 88 40 45 76\nWeb Hosting: OVH, 2 rue Kellermann, 59100 Roubaix / 1007"
     },
     "dpo": {
-      "title": "Personal Data Protection",
+      "title": "Our data protection privacy policy",
       "principles": {
-        "title": "General Principles",
-        "body": "The General Data Protection Regulation (GDPR) came into effect on May 25, 2018. All companies, including management companies, are required to comply with this European regulation by ensuring respect for the rights of data subjects. The previous system, based on CNIL oversight through a declaratory regime via prior declarations (cf. Data Protection Act of 1978), has been abolished. It is now a logic of accountability based on a risk-based approach. Companies must ensure that all persons whose personal data is processed are informed about the type of information collected, how the company uses this information, the retention period for this data, and the possibility of requesting modification or deletion. This compliance first requires mapping or inventorying all files containing personal information, both internal (e.g., employees) and external (clients, service providers…), ensuring the security of this data, and being able to justify it at any time. The company must have all data subjects accept its data processing policy."
+        "title": "General statements",
+        "body": "The General Data Protection Regulation (GDPR) came into force on May the 25th of 2018. Every company is required to comply with this European ruling guaranteeing that concerned people have their rights respected. The previous system, based on the control of the National Commission for Information Science and Liberties based on a declaratory system via prior declarations (Loi Informatique et libertés of 1978), is from now on erased. It is now about a logic of empowerment based on risks. Companies must verify that any concerned person is aware of the information collected, of its use, conservation, and of the possibility of modifying it, if necessary, deleting it.\nThis compliance measure implies carrying out mapping of all the documents with personal data, be it internal (employees for example) or external (clients, providers…), to secure the data and to testify about it at any moment. The company will need to have its data processing policy accepted by all those involved."
       },
       "framework": {
         "title": "Regulatory Framework",
-        "body": "Regulation (EU) 2016/679 of the European Parliament and of the Council of 27 April 2016 on the protection of natural persons with regard to the processing of personal data and on the free movement of such data, and repealing Directive 95/46/EC (General Data Protection Regulation)."
+        "body": "Regulation (EU) 2016/679 of the European Parliament and of the Council of 27 April 2016 on the protection of natural persons with regard to the processing of personal data and on the free movement of such data, then repealing Directive 95/46/EC (General Data Protection Regulation)."
       },
       "objectives": {
         "title": "Objectives",
-        "body": "This data processing policy aims to clarify and establish the framework applicable to all personal data held by MANCO.PARIS. It distinguishes between internal data processing (employees in particular) and external data (clients, service providers…). The implementation of the GDPR concretely involves for MANCO.PARIS:\n\n• The appointment of a data processing and monitoring officer: The designated person is Jérôme COIRIER – He can be contacted at: dpo@manco.paris.\n• The establishment of a personal data processing register to inventory personal data collected and its purposes.\n• The implementation of a general data and cookie processing policy available on our website for user information.\n• Information at the time of account creation about our personal data processing policy, user rights, and data usage.\n• Information to all our clients and service providers about our general personal data processing policy."
+        "body": "The following data processing policy aims to explain and establish the applicable framework for all personal data held by MANCO.PARIS. It distinguishes the internal data processing (especially employees) from the external one (clients, providers…). MANCO.PARIS initiated its GDPR compliance:\n\nWith the nomination of a manager of personal data processing and monitoring: the designated person is Jérôme COIRIER – You can reach him here: dpo@manco.paris\nThe company created a register listing all the data collected and the reason for the collection.\nMANCO.PARIS keeps informed website users on both data and cookies processing policies available on the website.\nThe user gets informed on the modalities of the data processing.\nMANCO.PARIS informs its clients and service providers of the general policy on data processing."
       },
       "dataCollected": {
-        "title": "Data Collected",
-        "body": "Data collected relates to identification (surname, first name, postal address, phone number, email address, company), professional, economic or financial situation (position held within the company, client categorization…). The client is informed of their rights at the time of data collection and throughout the duration of the contract."
+        "title": "Data collection",
+        "body": "Collected data are data related to identification (name, first name, address, phone number, e-mail, company), professional, economic, or financial situation (position in the company, client's categorization…). The customer knows about his rights during the collection and throughout the contract."
       },
       "dataUse": {
-        "title": "Use of Data",
-        "body": "MANCO.PARIS collects your personal data solely in the context of your information requests and our commercial exchanges. This data is used exclusively by MANCO.PARIS to inform you about its activities."
+        "title": "Use of data",
+        "body": "MANCO.PARIS only collects your data in the context of your requests for information and our commercial exchanges. This data is used exclusively by MANCO.PARIS to inform you about its activities."
       },
       "registry": {
-        "title": "Record Keeping",
-        "body": "A register is maintained by the management company under the oversight of the data processing and monitoring officer. This register classifies and inventories all personal data collected by the company."
+        "title": "Data register update",
+        "body": "The company implemented a register under the direction of the person in charge of data monitoring and processing. This register classifies and lists all personal data collected by the company."
       },
       "rights": {
-        "title": "Information on Your Rights",
-        "body": "In accordance with current regulations, you have:\n\n• The right of access to personal data concerning you\n• The right to rectification, modification or erasure thereof\n• The right to restriction of processing relating to this personal data\n• The right to object to processing (unless necessary to comply with our legal and regulatory obligations)\n• The right to data portability\n• The right to lodge a complaint with the CNIL\n\nInformation on your rights is communicated via our website's data processing updates."
+        "title": "Exercising your rights (right to information, to be forgotten, to be rectified).",
+        "body": "According to the new regulation, your rights are as follows:\n\nThe right to access your data.\nThe right to rectification, or erasure of data,\nThe right to limit the processing of your data,\nThe right to oppose yourself against its processing (except when it is necessary to respect one of our legal and regulatory duties),\nThe right to portability of such data,\nThe right to fill a complaint to the CNIL.\n\nMANCO.PARIS broadcasts information on your rights via:\n\nThe update of its website on data processing."
       },
       "retention": {
-        "title": "Personal Data Retention Period",
-        "body": "Personal data cannot be stored indefinitely in digital files. Your personal data will be retained throughout the business relationship and deleted after a period of three years following our last exchange in the absence of a business relationship.\n\nHowever, there are cases where your data may be retained longer:\n• To meet legal, accounting or tax obligations (10 years)\n• For the preservation of evidence during applicable limitation periods (5 years)"
+        "title": "Data retention period",
+        "body": "MANCO.PARIS cannot retain personal data for more than a certain amount of time. Your data will be stored throughout the contractual relationship and erased three years after the last exchange in the event of a lack of commercial discussions.\n\nYet, MANCO.PARIS might retain your data a bit longer:\n\n• To meet a legal, regulatory, fiscal, or accounting requirement (10 years)\n• To keep records during the applicable limitation period (5 years)"
       },
       "contactDpo": {
-        "title": "Contact Us",
-        "body": "You may address any complaint regarding the processing of your personal data by email to the data processing and monitoring officer at: dpo@manco.paris, or by post to: MANCO.PARIS, 7 rue Roy 75008 PARIS.\n\nIf dissatisfied with the processing of your personal data, you may lodge a complaint in France with the Commission Nationale de l'Informatique et des Libertés (C.N.I.L) at: Service des plaintes, 3 Place de Fontenoy, TSA 80715 – 75334 Paris Cedex 07 – 01 53 73 22 22 – www.cnil.fr/fr/plaintes"
+        "title": "Contact us",
+        "body": "You can address any complaint concerning personal data processing by contacting the person in charge of data processing and monitoring to the following address: dpo@manco.paris or by letter to the following address: MANCO.PARIS; 7 rue Roy, 75008 PARIS.\n\nYou can fill in France a complaint to the CNIL if you are dissatisfied with the processing of your personal data, and send it to the following address: Service des plaintes, 3 Place de Fontenoy, TSA 80715-75334 Paris Cedex 7- +33 (0)1 53 73 22 22 – www.cnil.fr/fr/plaintes"
       }
     },
     "purpose": {

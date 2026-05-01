@@ -17,9 +17,7 @@
     "ctaPrimary": "Contactez-nous",
     "ctaSecondary": "Nos services",
     "stats": {
-      "amf": { "big": "Agréée AMF", "sub": "depuis 2021", "foot": "GP-21000001" },
-      "funds": { "big": "12+", "sub": "fonds gérés", "foot": "sous notre agrément" },
-      "aum": { "big": "1.2 Mds €", "sub": "sous gestion", "foot": "au 31/03/2026" }
+      "amf": { "big": "Agréée AMF", "sub": "20 janvier 2021", "foot": "GP-21000001" }
     }
   },
   "questions": {

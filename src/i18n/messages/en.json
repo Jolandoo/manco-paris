@@ -17,9 +17,7 @@
     "ctaPrimary": "Contact us",
     "ctaSecondary": "Our services",
     "stats": {
-      "amf": { "big": "AMF-Approved", "sub": "since 2021", "foot": "GP-21000001" },
-      "funds": { "big": "12+", "sub": "funds managed", "foot": "under our license" },
-      "aum": { "big": "€1.2 Bn", "sub": "under management", "foot": "as of 31/03/2026" }
+      "amf": { "big": "AMF-Approved", "sub": "January 20, 2021", "foot": "GP-21000001" }
     }
   },
   "questions": {

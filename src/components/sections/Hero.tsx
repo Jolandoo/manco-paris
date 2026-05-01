@@ -9,8 +9,6 @@ export function Hero() {
 
   const stats = [
     { key: "amf" as const, idx: "01" },
-    { key: "funds" as const, idx: "02" },
-    { key: "aum" as const, idx: "03" },
   ];
 
   return (
@@ -55,7 +53,7 @@ export function Hero() {
       </div>
 
       {/* Right — stats panel, staggered entrance */}
-      <div className="border-l border-border bg-bg-2 grid grid-rows-3 max-lg:grid-rows-none max-lg:grid-cols-3 max-md:grid-cols-1 max-lg:border-l-0 max-lg:border-t">
+      <div className="border-l border-border bg-bg-2 grid grid-rows-1 max-lg:grid-rows-none max-lg:grid-cols-1 max-lg:border-l-0 max-lg:border-t">
         {stats.map(({ key, idx }, i) => (
           <motion.div
             key={key}

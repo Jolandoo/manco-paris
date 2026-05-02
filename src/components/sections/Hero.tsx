@@ -1,24 +1,28 @@
 "use client";
 
-import { useRef, useCallback } from "react";
+import { useRef, useState, useCallback } from "react";
 import { useTranslations } from "next-intl";
 import { motion, useReducedMotion } from "framer-motion";
 
 const VIDEOS = ["/videos/download.mp4", "/videos/Design sans titre.mp4"];
+const FADE_MS = 800;
 
 export function Hero() {
   const t = useTranslations("hero");
   const shouldReduce = useReducedMotion();
-  const videoRef = useRef<HTMLVideoElement>(null);
-  const indexRef = useRef(0);
+  const videoARef = useRef<HTMLVideoElement>(null);
+  const videoBRef = useRef<HTMLVideoElement>(null);
+  const [activeIs, setActiveIs] = useState<"A" | "B">("A");
+  const nextIndexRef = useRef(1);
 
   const handleEnded = useCallback(() => {
-    const video = videoRef.current;
-    if (!video) return;
-    indexRef.current = (indexRef.current + 1) % VIDEOS.length;
-    video.src = VIDEOS[indexRef.current];
-    video.play();
-  }, []);
+    const incoming = activeIs === "A" ? videoBRef.current : videoARef.current;
+    if (!incoming) return;
+    incoming.src = VIDEOS[nextIndexRef.current];
+    incoming.play();
+    setActiveIs(activeIs === "A" ? "B" : "A");
+    nextIndexRef.current = (nextIndexRef.current + 1) % VIDEOS.length;
+  }, [activeIs]);
 
   const stats = [
     { key: "amf" as const },
@@ -68,12 +72,21 @@ export function Hero() {
       {/* Right — stats panel with Paris video background */}
       <div className="relative border-l border-border overflow-hidden max-lg:border-l-0 max-lg:border-t">
         <video
-          ref={videoRef}
+          ref={videoARef}
           autoPlay
           muted
           playsInline
           onEnded={handleEnded}
           src={VIDEOS[0]}
+          style={{ transition: `opacity ${FADE_MS}ms ease`, opacity: activeIs === "A" ? 1 : 0 }}
+          className="absolute inset-0 w-full h-full object-cover"
+        />
+        <video
+          ref={videoBRef}
+          muted
+          playsInline
+          onEnded={handleEnded}
+          style={{ transition: `opacity ${FADE_MS}ms ease`, opacity: activeIs === "B" ? 1 : 0 }}
           className="absolute inset-0 w-full h-full object-cover"
         />
         <div className="absolute inset-0 bg-bg-1/70" />

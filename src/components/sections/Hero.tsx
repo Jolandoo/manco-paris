@@ -52,31 +52,44 @@ export function Hero() {
         </motion.div>
       </div>
 
-      {/* Right — stats panel, staggered entrance */}
-      <div className="border-l border-border bg-bg-2 grid grid-rows-1 max-lg:grid-rows-none max-lg:grid-cols-1 max-lg:border-l-0 max-lg:border-t">
-        {stats.map(({ key }, i) => (
-          <motion.div
-            key={key}
-            initial={shouldReduce ? false : { opacity: 0, y: 16 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{
-              duration: 0.4,
-              delay: 0.3 + i * 0.1,
-              ease: [0.23, 1, 0.32, 1],
-            }}
-            className="px-8 max-md:px-6 py-9 max-md:py-6 flex flex-col justify-center"
-          >
-            <div className="font-display text-[clamp(36px,4vw,56px)] font-normal text-fg leading-none tracking-[-0.02em]">
-              {t(`stats.${key}.big`)}
-            </div>
-            <div className="font-sans text-sm text-fg-dim mt-1.5">
-              {t(`stats.${key}.sub`)}
-            </div>
-            <div className="font-mono text-[10px] text-fg-faint mt-1">
-              {t(`stats.${key}.foot`)}
-            </div>
-          </motion.div>
-        ))}
+      {/* Right — stats panel with Paris video background */}
+      <div className="relative border-l border-border overflow-hidden max-lg:border-l-0 max-lg:border-t">
+        <video
+          autoPlay
+          loop
+          muted
+          playsInline
+          className="absolute inset-0 w-full h-full object-cover grayscale"
+        >
+          <source src="/videos/paris.mp4" type="video/mp4" />
+        </video>
+        <div className="absolute inset-0 bg-bg-1/70" />
+
+        <div className="relative z-10 grid grid-rows-1 max-lg:grid-rows-none max-lg:grid-cols-1 h-full">
+          {stats.map(({ key }, i) => (
+            <motion.div
+              key={key}
+              initial={shouldReduce ? false : { opacity: 0, y: 16 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{
+                duration: 0.4,
+                delay: 0.3 + i * 0.1,
+                ease: [0.23, 1, 0.32, 1],
+              }}
+              className="px-8 max-md:px-6 py-9 max-md:py-6 flex flex-col justify-center"
+            >
+              <div className="font-display text-[clamp(36px,4vw,56px)] font-normal text-fg leading-none tracking-[-0.02em]">
+                {t(`stats.${key}.big`)}
+              </div>
+              <div className="font-sans text-sm text-fg-dim mt-1.5">
+                {t(`stats.${key}.sub`)}
+              </div>
+              <div className="font-mono text-[10px] text-fg-faint mt-1">
+                {t(`stats.${key}.foot`)}
+              </div>
+            </motion.div>
+          ))}
+        </div>
       </div>
     </section>
   );

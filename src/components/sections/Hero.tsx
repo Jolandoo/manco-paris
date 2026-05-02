@@ -1,11 +1,24 @@
 "use client";
 
+import { useRef, useCallback } from "react";
 import { useTranslations } from "next-intl";
 import { motion, useReducedMotion } from "framer-motion";
+
+const VIDEOS = ["/videos/download.mp4", "/videos/Design sans titre.mp4"];
 
 export function Hero() {
   const t = useTranslations("hero");
   const shouldReduce = useReducedMotion();
+  const videoRef = useRef<HTMLVideoElement>(null);
+  const indexRef = useRef(0);
+
+  const handleEnded = useCallback(() => {
+    const video = videoRef.current;
+    if (!video) return;
+    indexRef.current = (indexRef.current + 1) % VIDEOS.length;
+    video.src = VIDEOS[indexRef.current];
+    video.play();
+  }, []);
 
   const stats = [
     { key: "amf" as const },
@@ -55,14 +68,14 @@ export function Hero() {
       {/* Right — stats panel with Paris video background */}
       <div className="relative border-l border-border overflow-hidden max-lg:border-l-0 max-lg:border-t">
         <video
+          ref={videoRef}
           autoPlay
-          loop
           muted
           playsInline
+          onEnded={handleEnded}
+          src={VIDEOS[0]}
           className="absolute inset-0 w-full h-full object-cover grayscale"
-        >
-          <source src="/videos/paris.mp4" type="video/mp4" />
-        </video>
+        />
         <div className="absolute inset-0 bg-bg-1/70" />
 
         <div className="relative z-10 grid grid-rows-1 max-lg:grid-rows-none max-lg:grid-cols-1 h-full">

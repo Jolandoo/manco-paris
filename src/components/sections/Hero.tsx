@@ -74,7 +74,7 @@ export function Hero() {
           playsInline
           onEnded={handleEnded}
           src={VIDEOS[0]}
-          className="absolute inset-0 w-full h-full object-cover grayscale"
+          className="absolute inset-0 w-full h-full object-cover"
         />
         <div className="absolute inset-0 bg-bg-1/70" />
 
